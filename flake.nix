@@ -22,6 +22,7 @@
     vim-devicons = { url = github:ryanoasis/vim-devicons; flake = false; };
     vim-prisma = { url = github:pantharshit00/vim-prisma; flake = false; };
     vim-vsnip = { url = github:hrsh7th/vim-vsnip; flake = false; };
+    vim-which-key = { url = github:liuchengxu/vim-which-key; flake = false; };
   };
 
   outputs = { self, nixpkgs, flake-utils, ... }@inputs: {
@@ -53,6 +54,7 @@
           "vim-devicons"
           "vim-prisma"
           "vim-vsnip"
+          "vim-which-key"
         ];
       in
       {
