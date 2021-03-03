@@ -2,6 +2,7 @@
   description = "curated evergreen vim-plugins overlay";
 
   inputs = {
+
     flake-utils.url = github:numtide/flake-utils;
 
     formatter-nvim = { url = github:mhartington/formatter.nvim; flake = false; };
@@ -22,8 +23,9 @@
     vim-vsnip = { url = github:hrsh7th/vim-vsnip; flake = false; };
   };
 
-  outputs = { self, nixpkgs, flake-utils, ... }@inputs: flake-utils.lib.eachDefaultSystem (system: {
-    overlay = final: prev:
+  outputs = { self, nixpkgs, flake-utils, ... }@inputs: {
+    overlay =
+      final: prev:
       let
         inherit (prev.vimUtils) buildVimPluginFrom2Nix;
 
@@ -53,10 +55,7 @@
       in
       {
         vitalityVimPlugins = builtins.listToAttrs
-          (map
-            (name:
-              { inherit name; value = buildVitalityPlugin name; })
-            plugins);
+          (map (name: { inherit name; value = buildVitalityPlugin name; }) plugins);
       };
-  });
+  };
 }
