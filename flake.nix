@@ -22,6 +22,7 @@
     vim-devicons = { url = github:ryanoasis/vim-devicons; flake = false; };
     vim-prisma = { url = github:pantharshit00/vim-prisma; flake = false; };
     vim-vsnip = { url = github:hrsh7th/vim-vsnip; flake = false; };
+    vim-vsnip-integ = { url = github:hrsh7th/vim-vsnip-integ; flake = false; };
     vim-which-key = { url = github:liuchengxu/vim-which-key; flake = false; };
   };
 
