@@ -210,6 +210,7 @@
         "vim-dadbod-ui": "vim-dadbod-ui",
         "vim-devicons": "vim-devicons",
         "vim-prisma": "vim-prisma",
+        "vim-repl": "vim-repl",
         "vim-vsnip": "vim-vsnip",
         "vim-vsnip-integ": "vim-vsnip-integ",
         "vim-which-key": "vim-which-key"
@@ -308,6 +309,22 @@
       "original": {
         "owner": "pantharshit00",
         "repo": "vim-prisma",
+        "type": "github"
+      }
+    },
+    "vim-repl": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1614953044,
+        "narHash": "sha256-LFwqHGtXnmIgA/evpwCEgKJIJ2Ujh28i0g5wYafrYFw=",
+        "owner": "sillybun",
+        "repo": "vim-repl",
+        "rev": "75cdf9ba224d65a3b64031c55a8e92686e9586d0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "sillybun",
+        "repo": "vim-repl",
         "type": "github"
       }
     },
