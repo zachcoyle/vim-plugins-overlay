@@ -50,11 +50,11 @@
     "galaxyline-nvim": {
       "flake": false,
       "locked": {
-        "lastModified": 1615184715,
-        "narHash": "sha256-lj9ACLHSPEwSBOfJU0J1Gsi4muZJKpWwUuGh9Byxkiw=",
+        "lastModified": 1615339755,
+        "narHash": "sha256-SOM9Xc++Oj3XvLz9Nb/ZICAZO0jqKJIZej/c0oNxRO4=",
         "owner": "glepnir",
         "repo": "galaxyline.nvim",
-        "rev": "70445aa37f4b0361a4ee36c7833376505f1326ae",
+        "rev": "a6c2cbc2218cb2e59fd3353fb827da82b84a248a",
         "type": "github"
       },
       "original": {
@@ -114,11 +114,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1615274976,
-        "narHash": "sha256-rA5i3mHAT/VJuv+fyd8DMfGy05G5uwoNzqln8hz1R3M=",
-        "owner": "NixOS",
+        "lastModified": 1615339886,
+        "narHash": "sha256-8BxuX2XrG8E2eQL5YrxKMM7uzPR3lFo4IM27a+be5mQ=",
+        "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "4620b5a1a5121a78f4fce11aa1adf50969a07937",
+        "rev": "12074e7e86250abf628ae6cb3def359465e3f0ba",
         "type": "github"
       },
       "original": {
@@ -129,11 +129,11 @@
     "nvim-compe": {
       "flake": false,
       "locked": {
-        "lastModified": 1615194188,
-        "narHash": "sha256-NlVEFwfam1RV9c6kqo1semnA9nXp2v01hrgVkrzBwRc=",
+        "lastModified": 1615300168,
+        "narHash": "sha256-xBA7u8lusLW5hbZkkVrrH5M1g30wh+J7mIBRF8krXG0=",
         "owner": "hrsh7th",
         "repo": "nvim-compe",
-        "rev": "2a09c7c12052be488caaf3b492115cc6a17d6ef7",
+        "rev": "25170751944b64bb7b65af1e35772361485bc936",
         "type": "github"
       },
       "original": {
@@ -145,11 +145,11 @@
     "nvim-lspconfig": {
       "flake": false,
       "locked": {
-        "lastModified": 1615223573,
-        "narHash": "sha256-pv9ZWJmmpc0d95S/ueGuSJcQiyp5pUZHwCAqxq78gzM=",
+        "lastModified": 1615336067,
+        "narHash": "sha256-modChdi0x0mrSs9bBoTYHprIcmVwIBU4uvJHpZPQFsc=",
         "owner": "neovim",
         "repo": "nvim-lspconfig",
-        "rev": "e0e107044618bf06db2c1753fc154e7b68b6342c",
+        "rev": "9708941245abaaa313d2f6ba15e51ebd4b6a3c94",
         "type": "github"
       },
       "original": {
@@ -161,11 +161,11 @@
     "nvim-tree-lua": {
       "flake": false,
       "locked": {
-        "lastModified": 1615159001,
-        "narHash": "sha256-llG8LpoCX/c5OUaLhkSzu35Hw6stcK1a/QYjk83u/fA=",
+        "lastModified": 1615317130,
+        "narHash": "sha256-2ai0ha2mVAAD8rZbHqG36awHWBU/AW5TkQXjFRnfj20=",
         "owner": "kyazdani42",
         "repo": "nvim-tree.lua",
-        "rev": "7e3534c2bc31b203b6ff6a53f7ccc94c19ec813b",
+        "rev": "31ef294d05e1feeb5eb9e8ff3895d09cc93d95e4",
         "type": "github"
       },
       "original": {
@@ -209,6 +209,7 @@
         "telescope-nvim": "telescope-nvim",
         "vim-dadbod-ui": "vim-dadbod-ui",
         "vim-devicons": "vim-devicons",
+        "vim-import-cost": "vim-import-cost",
         "vim-prisma": "vim-prisma",
         "vim-repl": "vim-repl",
         "vim-vsnip": "vim-vsnip",
@@ -251,11 +252,11 @@
     "telescope-nvim": {
       "flake": false,
       "locked": {
-        "lastModified": 1615103457,
-        "narHash": "sha256-DBXIXr2BQxWpix9ii1x+Er4ftH2TdFowBUkhhvB6hiI=",
+        "lastModified": 1615320261,
+        "narHash": "sha256-2FqBbSiIVUJLKfuzXFOyiM+/1qSwe3on0RcuX8x27Oc=",
         "owner": "nvim-telescope",
         "repo": "telescope.nvim",
-        "rev": "1c80a92d4027c03b65cce1fe27ef664cff77186d",
+        "rev": "559bf36e73dc827cff7edd7b726c7a0d73493829",
         "type": "github"
       },
       "original": {
@@ -293,6 +294,22 @@
       "original": {
         "owner": "ryanoasis",
         "repo": "vim-devicons",
+        "type": "github"
+      }
+    },
+    "vim-import-cost": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1594311199,
+        "narHash": "sha256-b6fRvruxCYyAi6vwPO95LyZdEWCsS2VuqxQOco1o6iU=",
+        "owner": "yardnsm",
+        "repo": "vim-import-cost",
+        "rev": "5bd9f5104ab5960c6e1a7e502c024041aab154d8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "yardnsm",
+        "repo": "vim-import-cost",
         "type": "github"
       }
     },

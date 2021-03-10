@@ -20,6 +20,7 @@
     telescope-nvim = { url = github:nvim-telescope/telescope.nvim; flake = false; };
     vim-dadbod-ui = { url = github:kristijanhusak/vim-dadbod-ui; flake = false; };
     vim-devicons = { url = github:ryanoasis/vim-devicons; flake = false; };
+    vim-import-cost = { url = github:yardnsm/vim-import-cost; flake = false; };
     vim-prisma = { url = github:pantharshit00/vim-prisma; flake = false; };
     vim-repl = { url = github:sillybun/vim-repl; flake = false; };
     vim-vsnip = { url = github:hrsh7th/vim-vsnip; flake = false; };
@@ -54,6 +55,7 @@
           "snippets-nvim"
           "vim-dadbod-ui"
           "vim-devicons"
+          "vim-import-cost"
           "vim-prisma"
           "vim-repl"
           "vim-vsnip"
