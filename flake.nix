@@ -15,6 +15,8 @@
     nvim-lspconfig = { url = github:neovim/nvim-lspconfig; flake = false; };
     nvim-tree-lua = { url = github:kyazdani42/nvim-tree.lua; flake = false; };
     nvim-web-devicons = { url = github:kyazdani42/nvim-web-devicons; flake = false; };
+    popup-nvim = { url = github:nvim-lua/popup.nvim; flake = false; };
+    plenary-nvim = { url = github:nvim-lua/plenary.nvim; flake = false; };
     scrollbar-nvim = { url = github:Xuyuanp/scrollbar.nvim; flake = false; };
     snippets-nvim = { url = github:norcalli/snippets.nvim; flake = false; };
     telescope-bibtex-nvim = { url = github:nvim-telescope/telescope-bibtex.nvim; flake = false; };
@@ -68,6 +70,8 @@
           "nvim-lspconfig"
           "nvim-tree-lua"
           "nvim-web-devicons"
+          "plenary-nvim"
+          "popup-nvim"
           "scrollbar-nvim"
           "snippets-nvim"
           "telescope-bibtex-nvim"
