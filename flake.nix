@@ -120,9 +120,6 @@
       };
     in
     {
-      overlay = pkgs.lib.composeManyExtensions [
-        vim-plugins-overlay
-        vim-plugins-overrides-overlay
-      ];
+      overlay = pkgs.lib.composeExtensions vim-plugins-overlay vim-plugins-overrides-overlay;
     });
 }
