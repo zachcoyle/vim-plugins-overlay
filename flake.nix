@@ -14,6 +14,7 @@
     nvim-compe = { url = github:hrsh7th/nvim-compe; flake = false; };
     nvim-lspconfig = { url = github:neovim/nvim-lspconfig; flake = false; };
     nvim-tree-lua = { url = github:kyazdani42/nvim-tree.lua; flake = false; };
+    nvim-treesitter = { url = github:nvim-treesitter/nvim-treesitter; flake = false; };
     nvim-web-devicons = { url = github:kyazdani42/nvim-web-devicons; flake = false; };
     popup-nvim = { url = github:nvim-lua/popup.nvim; flake = false; };
     plenary-nvim = { url = github:nvim-lua/plenary.nvim; flake = false; };
@@ -69,6 +70,7 @@
           "nvim-compe"
           "nvim-lspconfig"
           "nvim-tree-lua"
+          "nvim-treesitter"
           "nvim-web-devicons"
           "plenary-nvim"
           "popup-nvim"
