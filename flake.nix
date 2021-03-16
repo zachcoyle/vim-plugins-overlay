@@ -53,18 +53,17 @@
   outputs = { self, nixpkgs, flake-utils, ... }@inputs: flake-utils.lib.eachDefaultSystem (system:
     let
       pkgs = import nixpkgs { inherit system; };
-      composeOverlays = pkgs.lib.foldl' pkgs.lib.composeExtensions (_: _: { });
       vim-plugins-overlay = import ./vim-plugins-overlay.nix inputs;
-      overrides-overlay = import ./overrides.nix {
+      vim-plugins-overrides-overlay = import ./overrides.nix {
         lib = pkgs.lib;
         stdenv = pkgs.stdenv;
         tree-sitter = pkgs.tree-sitter;
       };
     in
     {
-      overlay = composeOverlays [
+      overlay = pkgs.lib.composeManyExtensions [
         vim-plugins-overlay
-        overrides-overlay
+        vim-plugins-overrides-overlay
       ];
     });
 }
