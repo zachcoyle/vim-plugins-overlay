@@ -5,6 +5,7 @@
 
     flake-utils.url = github:numtide/flake-utils;
 
+    edge = { url = github:sainnhe/edge; flake = false; };
     formatter-nvim = { url = github:mhartington/formatter.nvim; flake = false; };
     fzf-lsp-nvim = { url = github:gfanto/fzf-lsp.nvim; flake = false; };
     galaxyline-nvim = { url = github:glepnir/galaxyline.nvim/main; flake = false; };
@@ -14,9 +15,11 @@
     nvim-compe = { url = github:hrsh7th/nvim-compe; flake = false; };
     nvim-lspconfig = { url = github:neovim/nvim-lspconfig; flake = false; };
     nvim-tree-lua = { url = github:kyazdani42/nvim-tree.lua; flake = false; };
+    nvim-treesitter = { url = github:nvim-treesitter/nvim-treesitter; flake = false; };
+    nvim-treesitter-textobjects = { url = github:nvim-treesitter/nvim-treesitter-textobjects; flake = false; };
     nvim-web-devicons = { url = github:kyazdani42/nvim-web-devicons; flake = false; };
-    popup-nvim = { url = github:nvim-lua/popup.nvim; flake = false; };
     plenary-nvim = { url = github:nvim-lua/plenary.nvim; flake = false; };
+    popup-nvim = { url = github:nvim-lua/popup.nvim; flake = false; };
     scrollbar-nvim = { url = github:Xuyuanp/scrollbar.nvim; flake = false; };
     snippets-nvim = { url = github:norcalli/snippets.nvim; flake = false; };
     telescope-bibtex-nvim = { url = github:nvim-telescope/telescope-bibtex.nvim; flake = false; };
@@ -47,63 +50,21 @@
     vim-which-key = { url = github:liuchengxu/vim-which-key; flake = false; };
   };
 
-  outputs = { self, nixpkgs, flake-utils, ... }@inputs: {
-    overlay =
-      final: prev:
-      let
-        inherit (prev.vimUtils) buildVimPluginFrom2Nix;
-
-        buildVitalityPlugin = name: buildVimPluginFrom2Nix {
-          pname = name;
-          version = "master";
-          src = builtins.getAttr name inputs;
-        };
-
-        plugins = [
-          "formatter-nvim"
-          "fzf-lsp-nvim"
-          "galaxyline-nvim"
-          "goyo-vim"
-          "gruvbox"
-          "lspkind-nvim"
-          "nvim-compe"
-          "nvim-lspconfig"
-          "nvim-tree-lua"
-          "nvim-web-devicons"
-          "plenary-nvim"
-          "popup-nvim"
-          "scrollbar-nvim"
-          "snippets-nvim"
-          "telescope-bibtex-nvim"
-          "telescope-cheat-nvim"
-          "telescope-dap-nvim"
-          "telescope-frecency-nvim"
-          "telescope-fzf-writer-nvim"
-          "telescope-fzy-native-nvim"
-          "telescope-ghq-nvim"
-          "telescope-github-nvim"
-          "telescope-media-files-nvim"
-          "telescope-menu-nvim"
-          "telescope-node-modules-nvim"
-          "telescope-nvim"
-          "telescope-packer-nvim"
-          "telescope-project-nvim"
-          "telescope-snippets-nvim"
-          "telescope-symbols-nvim"
-          "telescope-vimspector-nvim"
-          "telescope-z-nvim"
-          "vim-dadbod-ui"
-          "vim-devicons"
-          "vim-import-cost"
-          "vim-prisma"
-          "vim-repl"
-          "vim-vsnip"
-          "vim-which-key"
-        ];
-      in
-      {
-        vitalityVimPlugins = builtins.listToAttrs
-          (map (name: { inherit name; value = buildVitalityPlugin name; }) plugins);
+  outputs = { self, nixpkgs, flake-utils, ... }@inputs: flake-utils.lib.eachDefaultSystem (system:
+    let
+      pkgs = import nixpkgs { inherit system; };
+      composeOverlays = pkgs.lib.foldl' pkgs.lib.composeExtensions (_: _: { });
+      vim-plugins-overlay = import ./vim-plugins-overlay.nix inputs;
+      overrides-overlay = import ./overrides.nix {
+        lib = pkgs.lib;
+        stdenv = pkgs.stdenv;
+        tree-sitter = pkgs.tree-sitter;
       };
-  };
+    in
+    {
+      overlay = composeOverlays [
+        vim-plugins-overlay
+        overrides-overlay
+      ];
+    });
 }
