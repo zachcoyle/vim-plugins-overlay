@@ -10,7 +10,8 @@
     galaxyline-nvim = { url = github:glepnir/galaxyline.nvim/main; flake = false; };
     gitsigns-nvim = { url = github:lewis6991/gitsigns.nvim; flake = false; };
     goyo-vim = { url = github:junegunn/goyo.vim; flake = false; };
-    gruvbox = { url = github:gruvbox-community/gruvbox; flake = false; };
+    #gruvbox = { url = github:gruvbox-community/gruvbox; flake = false; };
+    gruvbox = { url = github:zachcoyle/gruvbox/add-gitsigns; flake = false; };
     lspkind-nvim = { url = github:onsails/lspkind-nvim; flake = false; };
     nvim-compe = { url = github:hrsh7th/nvim-compe; flake = false; };
     nvim-lspconfig = { url = github:neovim/nvim-lspconfig; flake = false; };
