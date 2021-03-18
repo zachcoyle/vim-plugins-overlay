@@ -99,15 +99,16 @@
     "gruvbox": {
       "flake": false,
       "locked": {
-        "lastModified": 1616019452,
-        "narHash": "sha256-veNIOYXPgzv3i7rgUD0FuPIL4+VcEinoPUVaiu9eCHs=",
-        "owner": "gruvbox-community",
+        "lastModified": 1616107031,
+        "narHash": "sha256-FNoaDUrCGJmsJ5f0RM2RbV4xTyHoxGiZv1XQya+AEiQ=",
+        "owner": "zachcoyle",
         "repo": "gruvbox",
-        "rev": "8a36e8dae3e31fa5edfb5ae91fb1c2d36b05979e",
+        "rev": "2ab0d4614d3a50a8a862aaf5ab69ed59898234b1",
         "type": "github"
       },
       "original": {
-        "owner": "gruvbox-community",
+        "owner": "zachcoyle",
+        "ref": "add-gitsigns",
         "repo": "gruvbox",
         "type": "github"
       }
