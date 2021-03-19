@@ -15,6 +15,7 @@
     lspkind-nvim = { url = github:onsails/lspkind-nvim; flake = false; };
     nvim-blame-line = { url = github:tveskag/nvim-blame-line; flake = false; };
     nvim-bufferline-lua = { url = github:akinsho/nvim-bufferline.lua; flake = false; };
+    nvim-colorizer-lua = { url = github:norcalli/nvim-colorizer.lua; flake = false; };
     nvim-compe = { url = github:hrsh7th/nvim-compe; flake = false; };
     nvim-lspconfig = { url = github:neovim/nvim-lspconfig; flake = false; };
     nvim-tree-lua = { url = github:kyazdani42/nvim-tree.lua; flake = false; };
