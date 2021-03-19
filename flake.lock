@@ -310,6 +310,7 @@
         "telescope-symbols-nvim": "telescope-symbols-nvim",
         "telescope-vimspector-nvim": "telescope-vimspector-nvim",
         "telescope-z-nvim": "telescope-z-nvim",
+        "vim-closer": "vim-closer",
         "vim-dadbod-ui": "vim-dadbod-ui",
         "vim-devicons": "vim-devicons",
         "vim-import-cost": "vim-import-cost",
@@ -637,6 +638,22 @@
       "original": {
         "owner": "nvim-telescope",
         "repo": "telescope-z.nvim",
+        "type": "github"
+      }
+    },
+    "vim-closer": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1614165566,
+        "narHash": "sha256-RACpnyUYOc/0yVCnpNIRVI6PdJ0f4XBw4ts1EKwwVx0=",
+        "owner": "rstacruz",
+        "repo": "vim-closer",
+        "rev": "c34636e104e8731d4a414d6500303442ff7ed94e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "rstacruz",
+        "repo": "vim-closer",
         "type": "github"
       }
     },
