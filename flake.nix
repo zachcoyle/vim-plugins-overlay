@@ -114,7 +114,7 @@
         ];
       in
       {
-        vimPlugins = prev.vimPlugins //
+        vimPlugins = nixpkgs.lib.recursiveUpdate prev.vimPlugins
           (builtins.listToAttrs
             (map (name: { inherit name; value = buildVitalityPlugin name; }) plugins));
       };
