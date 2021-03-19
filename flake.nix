@@ -70,6 +70,7 @@
           "goyo-vim"
           "gruvbox"
           "lspkind-nvim"
+          "nvim-blame-line"
           "nvim-compe"
           "nvim-lspconfig"
           "nvim-tree-lua"
