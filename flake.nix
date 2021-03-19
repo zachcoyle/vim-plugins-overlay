@@ -41,7 +41,7 @@
     telescope-symbols-nvim = { url = github:nvim-telescope/telescope-symbols.nvim; flake = false; };
     telescope-vimspector-nvim = { url = github:nvim-telescope/telescope-vimspector.nvim; flake = false; };
     telescope-z-nvim = { url = github:nvim-telescope/telescope-z.nvim; flake = false; };
-    vim-closer = { url = github:rstacruz/vim-closer; flake = false; };
+    vim-closer = { url = github:9mm/vim-closer; flake = false; };
     vim-dadbod-ui = { url = github:kristijanhusak/vim-dadbod-ui; flake = false; };
     vim-devicons = { url = github:ryanoasis/vim-devicons; flake = false; };
     vim-import-cost = { url = github:yardnsm/vim-import-cost; flake = false; };

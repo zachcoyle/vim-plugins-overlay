@@ -131,11 +131,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1616101148,
-        "narHash": "sha256-kI3dxBYnKZlSCMbcbGn76ozpbZZy+u9+8igfABQOcns=",
+        "lastModified": 1616118372,
+        "narHash": "sha256-RYRWgTAucm78gsKHjaifjMTchtR18KjMyji+uTF+Mfk=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "2ba25002285cc420cabddab2f101afadf8706f89",
+        "rev": "6869845ff1d1252a9b727509213c81b27e10f48c",
         "type": "github"
       },
       "original": {
@@ -644,15 +644,15 @@
     "vim-closer": {
       "flake": false,
       "locked": {
-        "lastModified": 1614165566,
-        "narHash": "sha256-RACpnyUYOc/0yVCnpNIRVI6PdJ0f4XBw4ts1EKwwVx0=",
-        "owner": "rstacruz",
+        "lastModified": 1578015863,
+        "narHash": "sha256-ciTud2dZaoT8D+KTQ6ycVTQNVhSQnkhFii2V4DSXGFQ=",
+        "owner": "9mm",
         "repo": "vim-closer",
-        "rev": "c34636e104e8731d4a414d6500303442ff7ed94e",
+        "rev": "0cb91a7a61c16247dee1eaa4b0a7c72b985311f1",
         "type": "github"
       },
       "original": {
-        "owner": "rstacruz",
+        "owner": "9mm",
         "repo": "vim-closer",
         "type": "github"
       }
