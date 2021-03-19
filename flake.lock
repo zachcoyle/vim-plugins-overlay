@@ -159,6 +159,22 @@
         "type": "github"
       }
     },
+    "nvim-bufferline-lua": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1616092941,
+        "narHash": "sha256-wzGxLeXtFRJY7ortSGTPTumNHq3sXd16K0b0hbIswvs=",
+        "owner": "akinsho",
+        "repo": "nvim-bufferline.lua",
+        "rev": "c387d2cdd7ae946726d2de29a6ac79b820bf4ddf",
+        "type": "github"
+      },
+      "original": {
+        "owner": "akinsho",
+        "repo": "nvim-bufferline.lua",
+        "type": "github"
+      }
+    },
     "nvim-compe": {
       "flake": false,
       "locked": {
@@ -283,6 +299,7 @@
         "lspkind-nvim": "lspkind-nvim",
         "nixpkgs": "nixpkgs",
         "nvim-blame-line": "nvim-blame-line",
+        "nvim-bufferline-lua": "nvim-bufferline-lua",
         "nvim-compe": "nvim-compe",
         "nvim-lspconfig": "nvim-lspconfig",
         "nvim-tree-lua": "nvim-tree-lua",
