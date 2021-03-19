@@ -114,8 +114,9 @@
         ];
       in
       {
-        vitalityVimPlugins = builtins.listToAttrs
-          (map (name: { inherit name; value = buildVitalityPlugin name; }) plugins);
+        vimPlugins = prev.vimPlugins //
+          (builtins.listToAttrs
+            (map (name: { inherit name; value = buildVitalityPlugin name; }) plugins));
       };
   };
 }
