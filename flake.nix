@@ -13,6 +13,7 @@
     #gruvbox = { url = github:gruvbox-community/gruvbox; flake = false; };
     gruvbox = { url = github:zachcoyle/gruvbox/add-gitsigns; flake = false; };
     lspkind-nvim = { url = github:onsails/lspkind-nvim; flake = false; };
+    nvim-blame-line = { url = github:tveskag/nvim-blame-line; flake = false; };
     nvim-compe = { url = github:hrsh7th/nvim-compe; flake = false; };
     nvim-lspconfig = { url = github:neovim/nvim-lspconfig; flake = false; };
     nvim-tree-lua = { url = github:kyazdani42/nvim-tree.lua; flake = false; };

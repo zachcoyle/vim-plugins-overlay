@@ -143,6 +143,22 @@
         "type": "indirect"
       }
     },
+    "nvim-blame-line": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1608949849,
+        "narHash": "sha256-6a8Wptz3Sp4fP/7ouS9nP8KJwWE8MngGDpUEMDprbhs=",
+        "owner": "tveskag",
+        "repo": "nvim-blame-line",
+        "rev": "52258a958eee02194da5a1e59db7a4d8903754be",
+        "type": "github"
+      },
+      "original": {
+        "owner": "tveskag",
+        "repo": "nvim-blame-line",
+        "type": "github"
+      }
+    },
     "nvim-compe": {
       "flake": false,
       "locked": {
@@ -266,6 +282,7 @@
         "gruvbox": "gruvbox",
         "lspkind-nvim": "lspkind-nvim",
         "nixpkgs": "nixpkgs",
+        "nvim-blame-line": "nvim-blame-line",
         "nvim-compe": "nvim-compe",
         "nvim-lspconfig": "nvim-lspconfig",
         "nvim-tree-lua": "nvim-tree-lua",
