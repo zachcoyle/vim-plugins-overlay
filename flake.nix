@@ -75,6 +75,7 @@
           "lspkind-nvim"
           "nvim-bufferline-lua"
           "nvim-blame-line"
+          "nvim-colorizer-lua"
           "nvim-compe"
           "nvim-lspconfig"
           "nvim-tree-lua"
