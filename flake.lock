@@ -15,6 +15,22 @@
         "type": "github"
       }
     },
+    "focus-vim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1489833244,
+        "narHash": "sha256-Xg6Qq9QLmWDKQfY1k9cft8XXgyy9PkywoTJUYecTizc=",
+        "owner": "merlinrebrovic",
+        "repo": "focus.vim",
+        "rev": "7dd8f832e4e24d8b9f503af33287781fc57be404",
+        "type": "github"
+      },
+      "original": {
+        "owner": "merlinrebrovic",
+        "repo": "focus.vim",
+        "type": "github"
+      }
+    },
     "formatter-nvim": {
       "flake": false,
       "locked": {
@@ -338,6 +354,7 @@
     "root": {
       "inputs": {
         "flake-utils": "flake-utils",
+        "focus-vim": "focus-vim",
         "formatter-nvim": "formatter-nvim",
         "fzf-lsp-nvim": "fzf-lsp-nvim",
         "galaxyline-nvim": "galaxyline-nvim",

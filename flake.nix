@@ -5,12 +5,13 @@
 
     flake-utils.url = github:numtide/flake-utils;
 
+    #gruvbox = { url = github:gruvbox-community/gruvbox; flake = false; };
+    focus-vim = { url = github:merlinrebrovic/focus.vim; flake = false; };
     formatter-nvim = { url = github:mhartington/formatter.nvim; flake = false; };
     fzf-lsp-nvim = { url = github:gfanto/fzf-lsp.nvim; flake = false; };
     galaxyline-nvim = { url = github:glepnir/galaxyline.nvim/main; flake = false; };
     gitsigns-nvim = { url = github:lewis6991/gitsigns.nvim; flake = false; };
     goyo-vim = { url = github:junegunn/goyo.vim; flake = false; };
-    #gruvbox = { url = github:gruvbox-community/gruvbox; flake = false; };
     gruvbox = { url = github:zachcoyle/gruvbox/add-gitsigns; flake = false; };
     lspkind-nvim = { url = github:onsails/lspkind-nvim; flake = false; };
     nvim-blame-line = { url = github:tveskag/nvim-blame-line; flake = false; };
@@ -23,8 +24,8 @@
     nvim-treesitter = { url = github:nvim-treesitter/nvim-treesitter; flake = false; };
     nvim-ts-rainbow = { url = github:p00f/nvim-ts-rainbow; flake = false; };
     nvim-web-devicons = { url = github:kyazdani42/nvim-web-devicons; flake = false; };
-    popup-nvim = { url = github:nvim-lua/popup.nvim; flake = false; };
     plenary-nvim = { url = github:nvim-lua/plenary.nvim; flake = false; };
+    popup-nvim = { url = github:nvim-lua/popup.nvim; flake = false; };
     scrollbar-nvim = { url = github:Xuyuanp/scrollbar.nvim; flake = false; };
     snippets-nvim = { url = github:norcalli/snippets.nvim; flake = false; };
     telescope-bibtex-nvim = { url = github:nvim-telescope/telescope-bibtex.nvim; flake = false; };
@@ -69,14 +70,15 @@
         };
 
         plugins = [
+          "focus-vim"
           "formatter-nvim"
           "fzf-lsp-nvim"
           "galaxyline-nvim"
           "goyo-vim"
           "gruvbox"
           "lspkind-nvim"
-          "nvim-bufferline-lua"
           "nvim-blame-line"
+          "nvim-bufferline-lua"
           "nvim-colorizer-lua"
           "nvim-compe"
           "nvim-jdtls"
