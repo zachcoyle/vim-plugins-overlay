@@ -304,6 +304,22 @@
         "type": "github"
       }
     },
+    "nvim-ts-autotag": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1616771181,
+        "narHash": "sha256-kB2WCvHXAMZUrIFyX6h5V63QXeB6xwKEQ2sn282VJyg=",
+        "owner": "windwp",
+        "repo": "nvim-ts-autotag",
+        "rev": "00b79b593af52585809e341c8dd1b7d839b3c466",
+        "type": "github"
+      },
+      "original": {
+        "owner": "windwp",
+        "repo": "nvim-ts-autotag",
+        "type": "github"
+      }
+    },
     "nvim-ts-rainbow": {
       "flake": false,
       "locked": {
@@ -389,6 +405,7 @@
         "nvim-lspconfig": "nvim-lspconfig",
         "nvim-tree-lua": "nvim-tree-lua",
         "nvim-treesitter": "nvim-treesitter",
+        "nvim-ts-autotag": "nvim-ts-autotag",
         "nvim-ts-rainbow": "nvim-ts-rainbow",
         "nvim-web-devicons": "nvim-web-devicons",
         "plenary-nvim": "plenary-nvim",
