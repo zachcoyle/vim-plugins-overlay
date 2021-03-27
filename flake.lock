@@ -146,6 +146,22 @@
         "type": "github"
       }
     },
+    "lsp_signature-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1616668120,
+        "narHash": "sha256-IuEVWqGzDP3szC3AHnb73LDZ5jnmqDbTCyR23JCollk=",
+        "owner": "ray-x",
+        "repo": "lsp_signature.nvim",
+        "rev": "892ff80069d0c6e149cffd6d3fd022b701ba2871",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ray-x",
+        "repo": "lsp_signature.nvim",
+        "type": "github"
+      }
+    },
     "lspkind-nvim": {
       "flake": false,
       "locked": {
@@ -395,6 +411,7 @@
         "goyo-vim": "goyo-vim",
         "gruvbox": "gruvbox",
         "indent-blankline-nvim": "indent-blankline-nvim",
+        "lsp_signature-nvim": "lsp_signature-nvim",
         "lspkind-nvim": "lspkind-nvim",
         "nixpkgs": "nixpkgs",
         "nvim-blame-line": "nvim-blame-line",
