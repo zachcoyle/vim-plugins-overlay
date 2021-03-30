@@ -149,11 +149,11 @@
     "lsp_signature-nvim": {
       "flake": false,
       "locked": {
-        "lastModified": 1616668120,
-        "narHash": "sha256-IuEVWqGzDP3szC3AHnb73LDZ5jnmqDbTCyR23JCollk=",
+        "lastModified": 1617092248,
+        "narHash": "sha256-tkjiH/0tsqQgqFvipD9FgZeI29O/mcJmPBDPGGb+dL4=",
         "owner": "ray-x",
         "repo": "lsp_signature.nvim",
-        "rev": "892ff80069d0c6e149cffd6d3fd022b701ba2871",
+        "rev": "6b24954a16097f409f3db7442fed5f2900b082ac",
         "type": "github"
       },
       "original": {
@@ -180,11 +180,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1617081229,
-        "narHash": "sha256-MTRd0jeMkR85H0e79g985Lnb9e5n2xrGTLvMNYvxk8w=",
-        "owner": "nixos",
+        "lastModified": 1617092195,
+        "narHash": "sha256-tDM22akPaQqgJL2fI6tacXvfkUxAki4EeHKoRwsdzeA=",
+        "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "973ee12e95f6f0613dabf455eaecae25ecc589e9",
+        "rev": "4efff6d22757c4d161d3a15de30916ab6ee2b2f3",
         "type": "github"
       },
       "original": {
@@ -211,11 +211,11 @@
     "nvim-bufferline-lua": {
       "flake": false,
       "locked": {
-        "lastModified": 1616769045,
-        "narHash": "sha256-dUFr/Gcw3OFgmK+Beagrz9z1uTcVnCODB04piqIvJE0=",
+        "lastModified": 1617089888,
+        "narHash": "sha256-ALpvP22bnGCKcF/gz9pva1dWZOLHUzHj2R5Xb05RR1w=",
         "owner": "akinsho",
         "repo": "nvim-bufferline.lua",
-        "rev": "e6953ebd37d79c8656cde6fae5ecf5aeb2483f47",
+        "rev": "80b0b6efef4157bfe49d3cf3e5a883a1c3aa9220",
         "type": "github"
       },
       "original": {
@@ -336,7 +336,7 @@
         "type": "github"
       }
     },
-    "nvim-ts-commentstring": {
+    "nvim-ts-context-commentstring": {
       "flake": false,
       "locked": {
         "lastModified": 1616742866,
@@ -439,7 +439,7 @@
         "nvim-tree-lua": "nvim-tree-lua",
         "nvim-treesitter": "nvim-treesitter",
         "nvim-ts-autotag": "nvim-ts-autotag",
-        "nvim-ts-commentstring": "nvim-ts-commentstring",
+        "nvim-ts-context-commentstring": "nvim-ts-context-commentstring",
         "nvim-ts-rainbow": "nvim-ts-rainbow",
         "nvim-web-devicons": "nvim-web-devicons",
         "plenary-nvim": "plenary-nvim",
