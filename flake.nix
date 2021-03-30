@@ -5,7 +5,6 @@
 
     flake-utils.url = github:numtide/flake-utils;
 
-    #gruvbox = { url = github:gruvbox-community/gruvbox; flake = false; };
     focus-vim = { url = github:merlinrebrovic/focus.vim; flake = false; };
     formatter-nvim = { url = github:mhartington/formatter.nvim; flake = false; };
     fzf-lsp-nvim = { url = github:gfanto/fzf-lsp.nvim; flake = false; };
@@ -14,8 +13,9 @@
     goyo-vim = { url = github:junegunn/goyo.vim; flake = false; };
     gruvbox = { url = github:zachcoyle/gruvbox/add-gitsigns; flake = false; };
     indent-blankline-nvim = { url = github:lukas-reineke/indent-blankline.nvim/lua; flake = false; };
-    lspkind-nvim = { url = github:onsails/lspkind-nvim; flake = false; };
     lsp_signature-nvim = { url = github:ray-x/lsp_signature.nvim; flake = false; };
+    lspkind-nvim = { url = github:onsails/lspkind-nvim; flake = false; };
+    LuaSnip = { url = github:L3MON4D3/LuaSnip; flake = false; };
     nvim-blame-line = { url = github:tveskag/nvim-blame-line; flake = false; };
     nvim-bufferline-lua = { url = github:akinsho/nvim-bufferline.lua; flake = false; };
     nvim-colorizer-lua = { url = github:norcalli/nvim-colorizer.lua; flake = false; };
@@ -83,6 +83,7 @@
           "indent-blankline-nvim"
           "lsp_signature-nvim"
           "lspkind-nvim"
+          "LuaSnip"
           "nvim-blame-line"
           "nvim-bufferline-lua"
           "nvim-colorizer-lua"
