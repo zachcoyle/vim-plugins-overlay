@@ -180,11 +180,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1617092195,
-        "narHash": "sha256-tDM22akPaQqgJL2fI6tacXvfkUxAki4EeHKoRwsdzeA=",
-        "owner": "NixOS",
+        "lastModified": 1617112570,
+        "narHash": "sha256-qgEZBnLK9Ve7GP1rQVHVyLOwIIq9aEdKYnm0IVxjEFs=",
+        "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "4efff6d22757c4d161d3a15de30916ab6ee2b2f3",
+        "rev": "2e1c5b6d3413b0735519c310cd9c1c7402e28dc3",
         "type": "github"
       },
       "original": {
@@ -307,11 +307,11 @@
     "nvim-treesitter": {
       "flake": false,
       "locked": {
-        "lastModified": 1616860276,
-        "narHash": "sha256-AcMZPpyyrErOjy1LPhTbvcZp0NCYP4LCvdsGh/C2Y90=",
+        "lastModified": 1617110304,
+        "narHash": "sha256-XZh31vkRd5xdFDd8y9CzALrmbOAGfwXhzng7363wDmU=",
         "owner": "nvim-treesitter",
         "repo": "nvim-treesitter",
-        "rev": "0df7c4aa39a6097e112f001520d2cea257440ed7",
+        "rev": "6863f79118d3cb331fd4e726cdb2384bbd8bf8f2",
         "type": "github"
       },
       "original": {
@@ -686,11 +686,11 @@
     "telescope-nvim": {
       "flake": false,
       "locked": {
-        "lastModified": 1617041065,
-        "narHash": "sha256-GW1HxjgemObfzQNa2qbJlNdQP7Te9TTonSsRDV05aMg=",
+        "lastModified": 1617100338,
+        "narHash": "sha256-au2ynlYM1+YPiuX0gdGIcXp3gxZd8cGoG8zYAxLbAaM=",
         "owner": "nvim-telescope",
         "repo": "telescope.nvim",
-        "rev": "2e03f67de9eab023098bd05916bf26556520a467",
+        "rev": "aefc8317354426864a361d7b7d84848145d218c1",
         "type": "github"
       },
       "original": {
@@ -814,11 +814,11 @@
     "vim-dadbod-ui": {
       "flake": false,
       "locked": {
-        "lastModified": 1617053724,
-        "narHash": "sha256-ZGNiY+wbSd2TsLrG5v4EctiTCjVFxLDn7bdZFLyDwyE=",
+        "lastModified": 1617094691,
+        "narHash": "sha256-OsFjugB+/DPNyySLzm12hdroXR/5/H7NhJNrrNb+Ygg=",
         "owner": "kristijanhusak",
         "repo": "vim-dadbod-ui",
-        "rev": "82b98a89fb63df959d269b446bb226ca0798f0f9",
+        "rev": "656d181b970172115f987ad38de867cd52d850c7",
         "type": "github"
       },
       "original": {
