@@ -25,6 +25,7 @@
     nvim-tree-lua = { url = github:kyazdani42/nvim-tree.lua; flake = false; };
     nvim-treesitter = { url = github:nvim-treesitter/nvim-treesitter; flake = false; };
     nvim-ts-autotag = { url = github:windwp/nvim-ts-autotag; flake = false; };
+    nvim-ts-commentstring = { url = github:JoosepAlviste/nvim-ts-context-commentstring; flake = false; };
     nvim-ts-rainbow = { url = github:p00f/nvim-ts-rainbow; flake = false; };
     nvim-web-devicons = { url = github:kyazdani42/nvim-web-devicons; flake = false; };
     plenary-nvim = { url = github:nvim-lua/plenary.nvim; flake = false; };
@@ -91,6 +92,7 @@
           "nvim-tree-lua"
           "nvim-treesitter"
           "nvim-ts-autotag"
+          "nvim-ts-context-commentstring"
           "nvim-ts-rainbow"
           "nvim-web-devicons"
           "plenary-nvim"

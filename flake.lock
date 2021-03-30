@@ -180,11 +180,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1617070090,
-        "narHash": "sha256-Q8r2Osg/tkh+EMUy4DkMmE5JZ4+5m5b5vQALTvMMPIo=",
+        "lastModified": 1617081229,
+        "narHash": "sha256-MTRd0jeMkR85H0e79g985Lnb9e5n2xrGTLvMNYvxk8w=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "4f6c5041c25d6666b72de334ded5cfe270a07d20",
+        "rev": "973ee12e95f6f0613dabf455eaecae25ecc589e9",
         "type": "github"
       },
       "original": {
@@ -243,11 +243,11 @@
     "nvim-compe": {
       "flake": false,
       "locked": {
-        "lastModified": 1617025157,
-        "narHash": "sha256-q3KM4+iulFyLS+TZCY7KAzCPO4xjT6o/gaiQI3XXt+Y=",
+        "lastModified": 1617072928,
+        "narHash": "sha256-I6O3KgQNFXd6SqWYoKcUziRyTQwybwupMS7HAzp6TxA=",
         "owner": "hrsh7th",
         "repo": "nvim-compe",
-        "rev": "3e567cd1407833412821b9cfb7f595eafe164e0c",
+        "rev": "e594493d79757523727034d0a1401cb9dbf88933",
         "type": "github"
       },
       "original": {
@@ -333,6 +333,22 @@
       "original": {
         "owner": "windwp",
         "repo": "nvim-ts-autotag",
+        "type": "github"
+      }
+    },
+    "nvim-ts-commentstring": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1616742866,
+        "narHash": "sha256-8fpQWf1uNvQ5d/E2NZtVVEcLqGc7kDMVQL57Rfto6v0=",
+        "owner": "JoosepAlviste",
+        "repo": "nvim-ts-context-commentstring",
+        "rev": "64b2e645cd73ca209a71cddfb638b43b64736714",
+        "type": "github"
+      },
+      "original": {
+        "owner": "JoosepAlviste",
+        "repo": "nvim-ts-context-commentstring",
         "type": "github"
       }
     },
@@ -423,6 +439,7 @@
         "nvim-tree-lua": "nvim-tree-lua",
         "nvim-treesitter": "nvim-treesitter",
         "nvim-ts-autotag": "nvim-ts-autotag",
+        "nvim-ts-commentstring": "nvim-ts-commentstring",
         "nvim-ts-rainbow": "nvim-ts-rainbow",
         "nvim-web-devicons": "nvim-web-devicons",
         "plenary-nvim": "plenary-nvim",
