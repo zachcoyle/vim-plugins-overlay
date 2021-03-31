@@ -3,11 +3,11 @@
     "LuaSnip": {
       "flake": false,
       "locked": {
-        "lastModified": 1617115006,
-        "narHash": "sha256-zPrRbVT8R+5hgOn6+LRAbLzPFzX4bpa2AxXNGO4cA4U=",
+        "lastModified": 1617141514,
+        "narHash": "sha256-5WEZg+ocmjJBTSGthwMB5nte67Ekq7sk69ZY3jLV8mg=",
         "owner": "L3MON4D3",
         "repo": "LuaSnip",
-        "rev": "8e346ee0e7200bc9165b5b82c4666df0103893fc",
+        "rev": "0bd3b1a3ff0493d39938b0165b91c8d615ef49b4",
         "type": "github"
       },
       "original": {
@@ -196,11 +196,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1617136517,
-        "narHash": "sha256-oKPG+v7eoFc5TQ40pbb9gyOgk7Vlxiqios9ZsZqfZZk=",
+        "lastModified": 1617147946,
+        "narHash": "sha256-MNGySg1Pk129qCttcj9BjuNp2qO1Adqa9856GKnZsnA=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "9a11dbc4a3b6bf6d372a0ffe32a210b5650f97e0",
+        "rev": "f3b5f40c81c084ab191e9af97f1e143adc599c7b",
         "type": "github"
       },
       "original": {
@@ -307,11 +307,11 @@
     "nvim-tree-lua": {
       "flake": false,
       "locked": {
-        "lastModified": 1617127885,
-        "narHash": "sha256-VLoYOOFAn8qyAplWa9+78FqP372hbEiNua8rLVUUzD8=",
+        "lastModified": 1617140515,
+        "narHash": "sha256-GJnVUotPq9oWcutbcTUm/sjK1BN3Fcwg3qTUSmNRnjU=",
         "owner": "kyazdani42",
         "repo": "nvim-tree.lua",
-        "rev": "eadead6072fe019ae45be33377528b33cb7a3da2",
+        "rev": "e5bd242003c285ccfd0153efb13d8cdd7173d0cf",
         "type": "github"
       },
       "original": {
@@ -400,6 +400,22 @@
         "type": "github"
       }
     },
+    "packer-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1617042352,
+        "narHash": "sha256-b3PLcNXT8q2KJQYMLFwfbQ0bRQFU2FKKD/gQjc3lWnQ=",
+        "owner": "wbthomason",
+        "repo": "packer.nvim",
+        "rev": "56c193d70a333a6bbf3d14bf8c150c071dea757a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "wbthomason",
+        "repo": "packer.nvim",
+        "type": "github"
+      }
+    },
     "plenary-nvim": {
       "flake": false,
       "locked": {
@@ -459,6 +475,7 @@
         "nvim-ts-context-commentstring": "nvim-ts-context-commentstring",
         "nvim-ts-rainbow": "nvim-ts-rainbow",
         "nvim-web-devicons": "nvim-web-devicons",
+        "packer-nvim": "packer-nvim",
         "plenary-nvim": "plenary-nvim",
         "popup-nvim": "popup-nvim",
         "scrollbar-nvim": "scrollbar-nvim",

@@ -28,6 +28,7 @@
     nvim-ts-context-commentstring = { url = github:JoosepAlviste/nvim-ts-context-commentstring; flake = false; };
     nvim-ts-rainbow = { url = github:p00f/nvim-ts-rainbow; flake = false; };
     nvim-web-devicons = { url = github:kyazdani42/nvim-web-devicons; flake = false; };
+    packer-nvim = { url = github:wbthomason/packer.nvim; flake = false; };
     plenary-nvim = { url = github:nvim-lua/plenary.nvim; flake = false; };
     popup-nvim = { url = github:nvim-lua/popup.nvim; flake = false; };
     scrollbar-nvim = { url = github:Xuyuanp/scrollbar.nvim; flake = false; };
@@ -96,6 +97,7 @@
           "nvim-ts-context-commentstring"
           "nvim-ts-rainbow"
           "nvim-web-devicons"
+          "packer-nvim"
           "plenary-nvim"
           "popup-nvim"
           "scrollbar-nvim"
