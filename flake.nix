@@ -26,7 +26,7 @@
     nvim-treesitter = { url = github:nvim-treesitter/nvim-treesitter; flake = false; };
     nvim-ts-autotag = { url = github:windwp/nvim-ts-autotag; flake = false; };
     nvim-ts-context-commentstring = { url = github:JoosepAlviste/nvim-ts-context-commentstring; flake = false; };
-    nvim-ts-rainbow = { url = github:p00f/nvim-ts-rainbow; flake = false; };
+    nvim-ts-rainbow = { url = github:zachcoyle/nvim-ts-rainbow/fix-nix-query; flake = false; };
     nvim-web-devicons = { url = github:kyazdani42/nvim-web-devicons; flake = false; };
     packer-nvim = { url = github:wbthomason/packer.nvim; flake = false; };
     plenary-nvim = { url = github:nvim-lua/plenary.nvim; flake = false; };
