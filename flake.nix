@@ -86,6 +86,7 @@
           "lsp_signature-nvim"
           "lspkind-nvim"
           "LuaSnip"
+          "nvcode-color-schemes-vim"
           "nvim-blame-line"
           "nvim-bufferline-lua"
           "nvim-colorizer-lua"
