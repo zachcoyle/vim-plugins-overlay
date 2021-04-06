@@ -16,6 +16,7 @@
     lsp_signature-nvim = { url = github:ray-x/lsp_signature.nvim; flake = false; };
     lspkind-nvim = { url = github:onsails/lspkind-nvim; flake = false; };
     LuaSnip = { url = github:L3MON4D3/LuaSnip; flake = false; };
+    nvcode-color-schemes-vim = { url = github:ChristianChiarulli/nvcode-color-schemes.vim; flake = false; };
     nvim-blame-line = { url = github:tveskag/nvim-blame-line; flake = false; };
     nvim-bufferline-lua = { url = github:akinsho/nvim-bufferline.lua; flake = false; };
     nvim-colorizer-lua = { url = github:norcalli/nvim-colorizer.lua; flake = false; };

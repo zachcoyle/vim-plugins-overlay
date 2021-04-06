@@ -196,16 +196,32 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1617713730,
-        "narHash": "sha256-JgZN12g6lp+sQbcGf9LouV8uctDxRGusGxE1wrGAmc0=",
+        "lastModified": 1617718915,
+        "narHash": "sha256-gyrltgxtK/OfTHh7fL4gRAy3H8WiBfIpGuEYLVcBFTs=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "413e9561f817ae4cbeb870f777ec5a66ab34e76c",
+        "rev": "0dd4441a17f266285aaaa23b373f82399e6458d5",
         "type": "github"
       },
       "original": {
         "id": "nixpkgs",
         "type": "indirect"
+      }
+    },
+    "nvcode-color-schemes-vim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1617648154,
+        "narHash": "sha256-P9XjL7zIqpqlWns8Ljo47RUsKc40qv2RTd4HpOlSpUU=",
+        "owner": "ChristianChiarulli",
+        "repo": "nvcode-color-schemes.vim",
+        "rev": "29d4a787ad847c267ba836c82e71bfc0a8346c47",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ChristianChiarulli",
+        "repo": "nvcode-color-schemes.vim",
+        "type": "github"
       }
     },
     "nvim-blame-line": {
@@ -463,6 +479,7 @@
         "lsp_signature-nvim": "lsp_signature-nvim",
         "lspkind-nvim": "lspkind-nvim",
         "nixpkgs": "nixpkgs",
+        "nvcode-color-schemes-vim": "nvcode-color-schemes-vim",
         "nvim-blame-line": "nvim-blame-line",
         "nvim-bufferline-lua": "nvim-bufferline-lua",
         "nvim-colorizer-lua": "nvim-colorizer-lua",
