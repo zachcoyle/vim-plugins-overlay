@@ -196,11 +196,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1617886815,
-        "narHash": "sha256-w+VcayCIcQyznkgI1zjqEWYzNr+FhvxNFRIqPLU6jbY=",
+        "lastModified": 1617891790,
+        "narHash": "sha256-m3B2Re8w2YnPcvkSBq/o2D2WHgUQ2CEApyWDYTtD4qU=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "d3d40b09fd3967a57aebd6219cc32b6db1c6dd7a",
+        "rev": "97cdea3f940629e8a857b8fa71cd7c4ebdb318ab",
         "type": "github"
       },
       "original": {
@@ -387,11 +387,11 @@
     "nvim-ts-rainbow": {
       "flake": false,
       "locked": {
-        "lastModified": 1617628338,
-        "narHash": "sha256-bLKmD7F85Na4K3x97MfhejqC0G112nX/4J5nBdpGTCM=",
+        "lastModified": 1617894346,
+        "narHash": "sha256-9pFuvkeVw1p2F5RcdTZHDszYrY5PhxflwrCsfjN7K3I=",
         "owner": "p00f",
         "repo": "nvim-ts-rainbow",
-        "rev": "d463320156e7e3d85a98aca1f5292422fd3b5b12",
+        "rev": "97798465743459cb5f7d82e54c693bebc84e73f8",
         "type": "github"
       },
       "original": {
@@ -737,11 +737,11 @@
     "telescope-nvim": {
       "flake": false,
       "locked": {
-        "lastModified": 1617829967,
-        "narHash": "sha256-7a3d/4Hnfvcu/cPqQBGCXfvPlZjXWDSe6lHMJUsWkZU=",
+        "lastModified": 1617892544,
+        "narHash": "sha256-h2c1ynZYBIhEgbJHSfOsBcGcOkR8bnlgG9bRiT/YTGU=",
         "owner": "nvim-telescope",
         "repo": "telescope.nvim",
-        "rev": "e5fbe6fe60149af8fdeef0d07cba06c029258ba0",
+        "rev": "64e59060b1750d0c86761693b6847c3db07afcd2",
         "type": "github"
       },
       "original": {
