@@ -148,11 +148,11 @@
     "indent-blankline-nvim": {
       "flake": false,
       "locked": {
-        "lastModified": 1617581248,
-        "narHash": "sha256-OV8+78J1q+oz+WMrcjEgkj8zZiVSbtTkB/6tgUcLMoE=",
+        "lastModified": 1618144700,
+        "narHash": "sha256-VFtbfgTBh2SbrHPNlwUanwlFcHMAZk+sDDnEu0EIsak=",
         "owner": "lukas-reineke",
         "repo": "indent-blankline.nvim",
-        "rev": "6c7ac766ba164af0111457fdb248e7dc96eae7c7",
+        "rev": "1bc7d243012aefa0b596c9559f320056e492ebba",
         "type": "github"
       },
       "original": {
@@ -196,11 +196,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1618128638,
-        "narHash": "sha256-MijJTAR8TPCOQ8bdGSH3rhoi2pgdzPiwsN+CV1yE38Y=",
-        "owner": "NixOS",
+        "lastModified": 1618151485,
+        "narHash": "sha256-duHm9ac/KUcbELJ+WFWFExkleEJYBJ49VASSu5VqNSo=",
+        "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "0062afc0506491c2989a17eadf7239b5a7b38338",
+        "rev": "c5a19b6924b426b732ed997369ad2e2028c2ae94",
         "type": "github"
       },
       "original": {
