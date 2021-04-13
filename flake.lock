@@ -99,11 +99,11 @@
     "gitsigns-nvim": {
       "flake": false,
       "locked": {
-        "lastModified": 1618313483,
-        "narHash": "sha256-NgJ5fhldrhUwXW8QVV838bZfB4Azdq+XvdXXRDP61Lg=",
+        "lastModified": 1618349376,
+        "narHash": "sha256-PyFhS4YxWn+p4a70eGZmuJgRwFdgS7cRo0O1hsfY7Kk=",
         "owner": "lewis6991",
         "repo": "gitsigns.nvim",
-        "rev": "89c8f26a56d69ca91aa996fcf42757ba7e5fe591",
+        "rev": "96a3832de455f7fa5f980c48da6b8c1213084b42",
         "type": "github"
       },
       "original": {
@@ -196,11 +196,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1618337665,
-        "narHash": "sha256-YD/nVSO3JeGxexlWI+dZ4dN8l+A0rR6nWQ6silWFpnU=",
+        "lastModified": 1618352735,
+        "narHash": "sha256-lUksqWA1McI321teXJT2aPgEuZapaR7pVS2yWbTfiBA=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "be07f22e465825f4465a754725c4be27565f2bff",
+        "rev": "71e2a4f48b3069bf306aad2cd481872f244d9f4b",
         "type": "github"
       },
       "original": {
@@ -323,11 +323,11 @@
     "nvim-tree-lua": {
       "flake": false,
       "locked": {
-        "lastModified": 1618337541,
-        "narHash": "sha256-PXzq1BY8jvtavBIVDhPGVY9WE+rNtMZ+BJ3X0AC/bOQ=",
+        "lastModified": 1618350841,
+        "narHash": "sha256-zdsF7t4SNxcTVdDWJUDZCNS1B6rnZwQERH+xA9WB4Vg=",
         "owner": "kyazdani42",
         "repo": "nvim-tree.lua",
-        "rev": "c2f2c665d8d46eb03d0bc4c0ee425d9733d1134c",
+        "rev": "ff814676d59bc9c721ebdb873390cdf960ec1442",
         "type": "github"
       },
       "original": {
