@@ -21,6 +21,8 @@
     nvim-bufferline-lua = { url = github:akinsho/nvim-bufferline.lua; flake = false; };
     nvim-colorizer-lua = { url = github:norcalli/nvim-colorizer.lua; flake = false; };
     nvim-compe = { url = github:hrsh7th/nvim-compe; flake = false; };
+    nvim-dap = { url = github:mfussenegger/nvim-dap; flake = false; };
+    nvim-dap-virtual-text = { url = github:theHamsta/nvim-dap-virtual-text; flake = false; };
     nvim-jdtls = { url = github:mfussenegger/nvim-jdtls; flake = false; };
     nvim-lspconfig = { url = github:neovim/nvim-lspconfig; flake = false; };
     nvim-tree-lua = { url = github:kyazdani42/nvim-tree.lua; flake = false; };
@@ -91,6 +93,8 @@
           "nvim-bufferline-lua"
           "nvim-colorizer-lua"
           "nvim-compe"
+          "nvim-dap"
+          "nvim-dap-virtual-text"
           "nvim-jdtls"
           "nvim-lspconfig"
           "nvim-tree-lua"
