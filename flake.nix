@@ -11,7 +11,7 @@
     galaxyline-nvim = { url = github:glepnir/galaxyline.nvim/main; flake = false; };
     gitsigns-nvim = { url = github:lewis6991/gitsigns.nvim; flake = false; };
     goyo-vim = { url = github:junegunn/goyo.vim; flake = false; };
-    gruvbox = { url = github:zachcoyle/gruvbox/add-gitsigns; flake = false; };
+    gruvbox = { url = github:gruvbox-community/gruvbox; flake = false; };
     indent-blankline-nvim = { url = github:lukas-reineke/indent-blankline.nvim/lua; flake = false; };
     lsp_signature-nvim = { url = github:ray-x/lsp_signature.nvim; flake = false; };
     lspkind-nvim = { url = github:onsails/lspkind-nvim; flake = false; };
