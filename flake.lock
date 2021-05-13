@@ -16,6 +16,22 @@
         "type": "github"
       }
     },
+    "barbar-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1620917594,
+        "narHash": "sha256-JTnk0KKlL5Zmo042oNhQmoHABfjQJgx6jSGsCt7zIPQ=",
+        "owner": "romgrk",
+        "repo": "barbar.nvim",
+        "rev": "fa07efc01700896f1b52d11a237e16aacebac443",
+        "type": "github"
+      },
+      "original": {
+        "owner": "romgrk",
+        "repo": "barbar.nvim",
+        "type": "github"
+      }
+    },
     "flake-utils": {
       "locked": {
         "lastModified": 1620759905,
@@ -195,11 +211,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1620889072,
-        "narHash": "sha256-doTvE6myl1h2fxjMw4Atn7EjwzvnYBkGoZEHMepquec=",
-        "owner": "NixOS",
+        "lastModified": 1620916328,
+        "narHash": "sha256-vhl0m91+vYH+yPQWPqiBZWuXR94oov9xe96D8v7T+2Q=",
+        "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "e948a04cde32f9c2551a773da5742248f6d95b8c",
+        "rev": "1a0d37a68320d606fee390eeb5d3989a55e97910",
         "type": "github"
       },
       "original": {
@@ -498,6 +514,7 @@
     "root": {
       "inputs": {
         "LuaSnip": "LuaSnip",
+        "barbar-nvim": "barbar-nvim",
         "flake-utils": "flake-utils",
         "focus-vim": "focus-vim",
         "formatter-nvim": "formatter-nvim",
