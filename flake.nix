@@ -64,7 +64,7 @@
     vim-which-key = { url = github:liuchengxu/vim-which-key; flake = false; };
   };
 
-  outputs = { self, nixpkgs, flake-utils, ... }@inputs: {
+  outputs = { self, nixpkgs, ... }@inputs: {
     overlay =
       final: prev:
       let
