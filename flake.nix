@@ -3,8 +3,6 @@
 
   inputs = {
 
-    flake-utils.url = github:numtide/flake-utils;
-
     barbar-nvim = { url = github:romgrk/barbar.nvim; flake = false; };
     focus-vim = { url = github:merlinrebrovic/focus.vim; flake = false; };
     formatter-nvim = { url = github:mhartington/formatter.nvim; flake = false; };
@@ -66,7 +64,7 @@
     vim-which-key = { url = github:liuchengxu/vim-which-key; flake = false; };
   };
 
-  outputs = { self, nixpkgs, flake-utils, ... }@inputs: {
+  outputs = { self, nixpkgs, ... }@inputs: {
     overlay =
       final: prev:
       let
