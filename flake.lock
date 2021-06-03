@@ -557,7 +557,8 @@
         "vim-repl": "vim-repl",
         "vim-vsnip": "vim-vsnip",
         "vim-vsnip-integ": "vim-vsnip-integ",
-        "vim-which-key": "vim-which-key"
+        "vim-which-key": "vim-which-key",
+        "which-key-nvim": "which-key-nvim"
       }
     },
     "scrollbar-nvim": {
@@ -1021,6 +1022,22 @@
       "original": {
         "owner": "liuchengxu",
         "repo": "vim-which-key",
+        "type": "github"
+      }
+    },
+    "which-key-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1622149817,
+        "narHash": "sha256-eCKQ+cl2pztyjyEQTPe09vokNyavVYuhBNreBU0Tb8M=",
+        "owner": "folke",
+        "repo": "which-key.nvim",
+        "rev": "20682f189a0c452203f6365f66eccb0407b20936",
+        "type": "github"
+      },
+      "original": {
+        "owner": "folke",
+        "repo": "which-key.nvim",
         "type": "github"
       }
     }

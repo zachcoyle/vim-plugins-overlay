@@ -62,6 +62,7 @@
     vim-vsnip = { url = github:hrsh7th/vim-vsnip; flake = false; };
     vim-vsnip-integ = { url = github:hrsh7th/vim-vsnip-integ; flake = false; };
     vim-which-key = { url = github:liuchengxu/vim-which-key; flake = false; };
+    which-key-nvim = { url = github:folke/which-key.nvim; flake = false; };
   };
 
   outputs = { self, nixpkgs, ... }@inputs: {
@@ -134,6 +135,7 @@
           "vim-repl"
           "vim-vsnip"
           "vim-which-key"
+          "which-key-nvim"
         ];
       in
       {
