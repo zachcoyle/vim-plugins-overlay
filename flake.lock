@@ -3,11 +3,11 @@
     "LuaSnip": {
       "flake": false,
       "locked": {
-        "lastModified": 1623997436,
-        "narHash": "sha256-f5lpISzh37ZPe7aLV2t2VsYIKgKNLDeR8gEXZ39mHxA=",
+        "lastModified": 1624036110,
+        "narHash": "sha256-LeM5FguQHglggAm7BNcxD8mRYBR+H8p7+/muF9VGFBc=",
         "owner": "L3MON4D3",
         "repo": "LuaSnip",
-        "rev": "29322709669aa411bf9ab8f563866ec064128f35",
+        "rev": "6aed450e36b4f7d818097d048706ecd35cfa8ed3",
         "type": "github"
       },
       "original": {
@@ -196,11 +196,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1624027661,
-        "narHash": "sha256-ZqiTLJsVOq45y5UMBXg//dA1Xgxno6QBoxc8jlgYvyE=",
+        "lastModified": 1624047486,
+        "narHash": "sha256-VAEIZCRK1l2pNMvqaAjk7D0VLu6F2HU0n0HLQzHGmV8=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "ddd10a8dfcb0a7e40670eeba50bf471c0630ef24",
+        "rev": "78ca8a52b52d6c9fccbcf17a11a36552791c58a2",
         "type": "github"
       },
       "original": {
