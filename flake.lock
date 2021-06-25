@@ -100,11 +100,11 @@
     "gitsigns-nvim": {
       "flake": false,
       "locked": {
-        "lastModified": 1624463862,
-        "narHash": "sha256-oGKbSwJXIvltDqJLOISmiERLcXjtlyQ6bnHYKya7Nao=",
+        "lastModified": 1624637547,
+        "narHash": "sha256-Iqggng9sxUU4wuLhCztj0L7Yx16YDLA9O/VMmh0LNy4=",
         "owner": "lewis6991",
         "repo": "gitsigns.nvim",
-        "rev": "9bab79054db0668c0b7e8a60f6a3963387e0d332",
+        "rev": "9eff3c44a76faa3e7aa25305c541af77d37997ec",
         "type": "github"
       },
       "original": {
@@ -196,11 +196,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1624632316,
-        "narHash": "sha256-tSs8fjFv0mrJ7gy/vBlJxF63zfI5IQAuMjCfJqk2Zvc=",
+        "lastModified": 1624634316,
+        "narHash": "sha256-MUEJzeZZr+nP1V9D19PS9mKVJUJBgnweHFGuFN6hvAQ=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "8c563eaf7049d82fbe95b0847ac5ae6e5554e2fa",
+        "rev": "61e983dbac933aa26cf913aef47aa92a5c40143c",
         "type": "github"
       },
       "original": {
