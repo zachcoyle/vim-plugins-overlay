@@ -4,6 +4,7 @@
   inputs = {
 
     barbar-nvim = { url = github:romgrk/barbar.nvim; flake = false; };
+    blamer-nvim = { url = github:APZelos/blamer.nvim; flake = false; };
     focus-vim = { url = github:merlinrebrovic/focus.vim; flake = false; };
     formatter-nvim = { url = github:mhartington/formatter.nvim; flake = false; };
     fzf-lsp-nvim = { url = github:gfanto/fzf-lsp.nvim; flake = false; };
@@ -80,6 +81,7 @@
 
         plugins = [
           "barbar-nvim"
+          "blamer-nvim"
           "focus-vim"
           "formatter-nvim"
           "fzf-lsp-nvim"
