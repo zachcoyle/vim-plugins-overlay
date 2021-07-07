@@ -79,7 +79,7 @@
           src = builtins.getAttr name inputs;
         };
 
-        plugins = filter (name: name != "self" && name != "nixpkgs") (builtins.attrNames inputs);
+        plugins = builtins.filter (name: name != "self" && name != "nixpkgs") (builtins.attrNames inputs);
 
       in
       {
