@@ -2,7 +2,6 @@
   description = "curated evergreen vim-plugins overlay";
 
   inputs = {
-
     barbar-nvim = { url = github:romgrk/barbar.nvim; flake = false; };
     blamer-nvim = { url = github:APZelos/blamer.nvim; flake = false; };
     focus-vim = { url = github:merlinrebrovic/focus.vim; flake = false; };
@@ -55,6 +54,7 @@
     telescope-symbols-nvim = { url = github:nvim-telescope/telescope-symbols.nvim; flake = false; };
     telescope-vimspector-nvim = { url = github:nvim-telescope/telescope-vimspector.nvim; flake = false; };
     telescope-z-nvim = { url = github:nvim-telescope/telescope-z.nvim; flake = false; };
+    trouble-nvim = { url = github:folke/trouble.nvim; flake = false; };
     vim-closer = { url = github:9mm/vim-closer; flake = false; };
     vim-dadbod-ui = { url = github:kristijanhusak/vim-dadbod-ui; flake = false; };
     vim-devicons = { url = github:ryanoasis/vim-devicons; flake = false; };
