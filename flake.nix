@@ -3,6 +3,7 @@
 
   inputs = {
     barbar-nvim = { url = github:romgrk/barbar.nvim; flake = false; };
+    neogit = { url = github:TimUntersberger/neogit; flake = false; };
     blamer-nvim = { url = github:APZelos/blamer.nvim; flake = false; };
     calvera-dark-nvim = { url = github:yashguptaz/calvera-dark.nvim; flake = false; };
     focus-vim = { url = github:merlinrebrovic/focus.vim; flake = false; };
