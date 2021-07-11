@@ -3,9 +3,9 @@
 
   inputs = {
     barbar-nvim = { url = github:romgrk/barbar.nvim; flake = false; };
-    neogit = { url = github:TimUntersberger/neogit; flake = false; };
     blamer-nvim = { url = github:APZelos/blamer.nvim; flake = false; };
     calvera-dark-nvim = { url = github:yashguptaz/calvera-dark.nvim; flake = false; };
+    completion-nvim = { url = github:nvim-lua/completion-nvim; flake = false; };
     focus-vim = { url = github:merlinrebrovic/focus.vim; flake = false; };
     formatter-nvim = { url = github:mhartington/formatter.nvim; flake = false; };
     fzf-lsp-nvim = { url = github:gfanto/fzf-lsp.nvim; flake = false; };
@@ -17,6 +17,7 @@
     lsp_signature-nvim = { url = github:ray-x/lsp_signature.nvim; flake = false; };
     lspkind-nvim = { url = github:onsails/lspkind-nvim; flake = false; };
     LuaSnip = { url = github:L3MON4D3/LuaSnip; flake = false; };
+    neogit = { url = github:TimUntersberger/neogit; flake = false; };
     nvcode-color-schemes-vim = { url = github:ChristianChiarulli/nvcode-color-schemes.vim; flake = false; };
     nvim-blame-line = { url = github:tveskag/nvim-blame-line; flake = false; };
     nvim-bufferline-lua = { url = github:akinsho/nvim-bufferline.lua; flake = false; };
