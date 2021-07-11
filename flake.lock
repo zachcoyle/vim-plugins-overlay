@@ -244,11 +244,11 @@
     "neogit": {
       "flake": false,
       "locked": {
-        "lastModified": 1625832932,
-        "narHash": "sha256-O2w8x2Hx9FW8l70F8buGmSzdacOoScSeLQbLU4+B6Hg=",
+        "lastModified": 1626013804,
+        "narHash": "sha256-syaWOJ5EuIEjSGZ06EmIYu2Aim6TGG0kamBT/yxx/qQ=",
         "owner": "TimUntersberger",
         "repo": "neogit",
-        "rev": "7a133c83b174bb40019f42ecc2a80c09bff53f33",
+        "rev": "467d64d8f4e3018a8742aa152ed5e2c83c3bbef0",
         "type": "github"
       },
       "original": {
@@ -259,11 +259,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1626008032,
-        "narHash": "sha256-PW6KIDI8F3Tzhd7JO8gwvba9O5xbasV8qVT1Fh+RyPY=",
+        "lastModified": 1626019149,
+        "narHash": "sha256-0QeLkPoWjTDw9n1fmrwUg9IFIsjuD/YcX/DvMUQtqQw=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "15ddd8316a81c32b55b318ea69c97505d27e793b",
+        "rev": "eed20f01e43e94f0adae14e8407e8ef386897060",
         "type": "github"
       },
       "original": {
