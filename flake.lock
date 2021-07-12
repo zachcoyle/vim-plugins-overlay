@@ -257,6 +257,22 @@
         "type": "github"
       }
     },
+    "neorg": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1626077169,
+        "narHash": "sha256-6Fiz/W5/O3DkBUKx2f1qxSrnTiPg0gb84rd9CZJmtIc=",
+        "owner": "vhyrro",
+        "repo": "neorg",
+        "rev": "78f245c4d858ae78c8b07b757e190e8c7c401196",
+        "type": "github"
+      },
+      "original": {
+        "owner": "vhyrro",
+        "repo": "neorg",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1626076658,
@@ -593,6 +609,7 @@
         "lsp_signature-nvim": "lsp_signature-nvim",
         "lspkind-nvim": "lspkind-nvim",
         "neogit": "neogit",
+        "neorg": "neorg",
         "nixpkgs": "nixpkgs",
         "nvcode-color-schemes-vim": "nvcode-color-schemes-vim",
         "nvim-blame-line": "nvim-blame-line",
