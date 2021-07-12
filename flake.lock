@@ -273,6 +273,22 @@
         "type": "github"
       }
     },
+    "neon": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1624149183,
+        "narHash": "sha256-uqktz0O+lgFLkiSfd3Y02iCRRFcVPxIxwkdDgjomLsc=",
+        "owner": "rafamadriz",
+        "repo": "neon",
+        "rev": "14db261c6a1777502aa40ed7f82e02a1d4ff9404",
+        "type": "github"
+      },
+      "original": {
+        "owner": "rafamadriz",
+        "repo": "neon",
+        "type": "github"
+      }
+    },
     "neorg": {
       "flake": false,
       "locked": {
@@ -626,6 +642,7 @@
         "lsp_signature-nvim": "lsp_signature-nvim",
         "lspkind-nvim": "lspkind-nvim",
         "neogit": "neogit",
+        "neon": "neon",
         "neorg": "neorg",
         "nixpkgs": "nixpkgs",
         "nvcode-color-schemes-vim": "nvcode-color-schemes-vim",
