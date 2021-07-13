@@ -42,6 +42,7 @@
     packer-nvim = { url = github:wbthomason/packer.nvim; flake = false; };
     plenary-nvim = { url = github:nvim-lua/plenary.nvim; flake = false; };
     popup-nvim = { url = github:nvim-lua/popup.nvim; flake = false; };
+    presence-nvim = { url = github:andweeb/presence.nvim; flake = false; };
     scrollbar-nvim = { url = github:Xuyuanp/scrollbar.nvim; flake = false; };
     snippets-nvim = { url = github:norcalli/snippets.nvim; flake = false; };
     telescope-bibtex-nvim = { url = github:nvim-telescope/telescope-bibtex.nvim; flake = false; };

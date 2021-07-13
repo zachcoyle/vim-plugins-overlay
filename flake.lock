@@ -655,6 +655,22 @@
         "type": "github"
       }
     },
+    "presence-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1625861678,
+        "narHash": "sha256-6y4Xa8jSV/QiXichJPaIWHs3rY/D6MXTDCL65nowrKc=",
+        "owner": "andweeb",
+        "repo": "presence.nvim",
+        "rev": "080d24394b9abc93b6cd7635cb96c7d6601759a3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "andweeb",
+        "repo": "presence.nvim",
+        "type": "github"
+      }
+    },
     "root": {
       "inputs": {
         "LuaSnip": "LuaSnip",
@@ -698,6 +714,7 @@
         "packer-nvim": "packer-nvim",
         "plenary-nvim": "plenary-nvim",
         "popup-nvim": "popup-nvim",
+        "presence-nvim": "presence-nvim",
         "scrollbar-nvim": "scrollbar-nvim",
         "snippets-nvim": "snippets-nvim",
         "telescope-bibtex-nvim": "telescope-bibtex-nvim",
