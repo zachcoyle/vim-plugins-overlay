@@ -37,6 +37,7 @@
     nvim-ts-rainbow = { url = github:p00f/nvim-ts-rainbow; flake = false; };
     nvim-web-devicons = { url = github:kyazdani42/nvim-web-devicons; flake = false; };
     octo-nvim = { url = github:pwntester/octo.nvim; flake = false; };
+    onedark-nvim = { url = github:joshdick/onedark.vim; flake = false; };
     packer-nvim = { url = github:wbthomason/packer.nvim; flake = false; };
     plenary-nvim = { url = github:nvim-lua/plenary.nvim; flake = false; };
     popup-nvim = { url = github:nvim-lua/popup.nvim; flake = false; };

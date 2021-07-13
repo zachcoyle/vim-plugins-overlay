@@ -575,6 +575,22 @@
         "type": "github"
       }
     },
+    "onedark-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1626071342,
+        "narHash": "sha256-Y5LXDpArPY3vliJ6/yloHBqNBhY0YppV3MgCfpKn47s=",
+        "owner": "joshdick",
+        "repo": "onedark.vim",
+        "rev": "ee4b22cbae8a3a434fad832bd89a6981c7c061af",
+        "type": "github"
+      },
+      "original": {
+        "owner": "joshdick",
+        "repo": "onedark.vim",
+        "type": "github"
+      }
+    },
     "packer-nvim": {
       "flake": false,
       "locked": {
@@ -661,6 +677,7 @@
         "nvim-ts-rainbow": "nvim-ts-rainbow",
         "nvim-web-devicons": "nvim-web-devicons",
         "octo-nvim": "octo-nvim",
+        "onedark-nvim": "onedark-nvim",
         "packer-nvim": "packer-nvim",
         "plenary-nvim": "plenary-nvim",
         "popup-nvim": "popup-nvim",
