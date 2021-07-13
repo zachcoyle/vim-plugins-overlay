@@ -463,6 +463,22 @@
         "type": "github"
       }
     },
+    "nvim-scrollview": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1625692102,
+        "narHash": "sha256-xaA7nPo+di6BRAzw1aWHjw8Z6g5l/gsGQ2Ii0JY6N1g=",
+        "owner": "dstein64",
+        "repo": "nvim-scrollview",
+        "rev": "2216837c0178dc81cca3d47aff9699ac1b2aec8e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "dstein64",
+        "repo": "nvim-scrollview",
+        "type": "github"
+      }
+    },
     "nvim-tree-lua": {
       "flake": false,
       "locked": {
@@ -670,6 +686,7 @@
         "nvim-dap-virtual-text": "nvim-dap-virtual-text",
         "nvim-jdtls": "nvim-jdtls",
         "nvim-lspconfig": "nvim-lspconfig",
+        "nvim-scrollview": "nvim-scrollview",
         "nvim-tree-lua": "nvim-tree-lua",
         "nvim-treesitter": "nvim-treesitter",
         "nvim-ts-autotag": "nvim-ts-autotag",

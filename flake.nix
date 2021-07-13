@@ -30,6 +30,7 @@
     nvim-dap-virtual-text = { url = github:theHamsta/nvim-dap-virtual-text; flake = false; };
     nvim-jdtls = { url = github:mfussenegger/nvim-jdtls; flake = false; };
     nvim-lspconfig = { url = github:neovim/nvim-lspconfig; flake = false; };
+    nvim-scrollview = { url = github:dstein64/nvim-scrollview; flake = false; };
     nvim-tree-lua = { url = github:kyazdani42/nvim-tree.lua; flake = false; };
     nvim-treesitter = { url = github:nvim-treesitter/nvim-treesitter; flake = false; };
     nvim-ts-autotag = { url = github:windwp/nvim-ts-autotag; flake = false; };
