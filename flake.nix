@@ -48,6 +48,7 @@
     telescope-bibtex-nvim = { url = github:nvim-telescope/telescope-bibtex.nvim; flake = false; };
     telescope-cheat-nvim = { url = github:nvim-telescope/telescope-cheat.nvim; flake = false; };
     telescope-dap-nvim = { url = github:nvim-telescope/telescope-dap.nvim; flake = false; };
+    telescope-emoji-nvim = { url = github:xiyaowong/telescope-emoji.nvim; flake = false; };
     telescope-frecency-nvim = { url = github:nvim-telescope/telescope-frecency.nvim; flake = false; };
     telescope-fzf-writer-nvim = { url = github:nvim-telescope/telescope-fzf-writer.nvim; flake = false; };
     telescope-fzy-native-nvim = { url = github:nvim-telescope/telescope-fzy-native.nvim; flake = false; };
