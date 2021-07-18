@@ -45,6 +45,7 @@
     presence-nvim = { url = github:andweeb/presence.nvim; flake = false; };
     scrollbar-nvim = { url = github:Xuyuanp/scrollbar.nvim; flake = false; };
     snippets-nvim = { url = github:norcalli/snippets.nvim; flake = false; };
+    sql-nvim = { url = github:tami5/sql.nvim; flake = false; };
     telescope-bibtex-nvim = { url = github:nvim-telescope/telescope-bibtex.nvim; flake = false; };
     telescope-cheat-nvim = { url = github:nvim-telescope/telescope-cheat.nvim; flake = false; };
     telescope-dap-nvim = { url = github:nvim-telescope/telescope-dap.nvim; flake = false; };
