@@ -2,6 +2,7 @@
   description = "curated evergreen vim-plugins overlay";
 
   inputs = {
+    ataraxis-lua = { url = henriquehbr/ataraxis.lua; flake = false; };
     barbar-nvim = { url = github:romgrk/barbar.nvim; flake = false; };
     blamer-nvim = { url = github:APZelos/blamer.nvim; flake = false; };
     calvera-dark-nvim = { url = github:yashguptaz/calvera-dark.nvim; flake = false; };
