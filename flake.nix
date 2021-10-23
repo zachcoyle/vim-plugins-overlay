@@ -6,7 +6,7 @@
     barbar-nvim = { url = github:romgrk/barbar.nvim; flake = false; };
     blamer-nvim = { url = github:APZelos/blamer.nvim; flake = false; };
     calvera-dark-nvim = { url = github:yashguptaz/calvera-dark.nvim; flake = false; };
-    cmp-buffer = { url = github:hrsh7th/hrsh7th/cmp-buffer; flake = false; };
+    cmp-buffer = { url = github:hrsh7th/cmp-buffer; flake = false; };
     cmp-nvim-lsp = { url = github:hrsh7th/cmp-nvim-lsp; flake = false; };
     completion-nvim = { url = github:nvim-lua/completion-nvim; flake = false; };
     feline-nvim = { url = github:famiu/feline.nvim; flake = false; };
