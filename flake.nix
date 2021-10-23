@@ -6,6 +6,8 @@
     barbar-nvim = { url = github:romgrk/barbar.nvim; flake = false; };
     blamer-nvim = { url = github:APZelos/blamer.nvim; flake = false; };
     calvera-dark-nvim = { url = github:yashguptaz/calvera-dark.nvim; flake = false; };
+    cmp-buffer = { url = github:hrsh7th/hrsh7th/cmp-buffer; flake = false; };
+    cmp-nvim-lsp = { url = github:hrsh7th/cmp-nvim-lsp; flake = false; };
     completion-nvim = { url = github:nvim-lua/completion-nvim; flake = false; };
     feline-nvim = { url = github:famiu/feline.nvim; flake = false; };
     focus-vim = { url = github:merlinrebrovic/focus.vim; flake = false; };
@@ -25,8 +27,8 @@
     nvcode-color-schemes-vim = { url = github:ChristianChiarulli/nvcode-color-schemes.vim; flake = false; };
     nvim-blame-line = { url = github:tveskag/nvim-blame-line; flake = false; };
     nvim-bufferline-lua = { url = github:akinsho/nvim-bufferline.lua; flake = false; };
-    nvim-colorizer-lua = { url = github:norcalli/nvim-colorizer.lua; flake = false; };
     nvim-cmp = { url = github:hrsh7th/nvim-cmp; flake = false; };
+    nvim-colorizer-lua = { url = github:norcalli/nvim-colorizer.lua; flake = false; };
     nvim-compe = { url = github:hrsh7th/nvim-compe; flake = false; };
     nvim-dap = { url = github:mfussenegger/nvim-dap; flake = false; };
     nvim-dap-virtual-text = { url = github:theHamsta/nvim-dap-virtual-text; flake = false; };
