@@ -2,7 +2,7 @@
   description = "curated evergreen vim-plugins overlay";
 
   inputs = {
-    ataraxis-lua = { url = henriquehbr/ataraxis.lua; flake = false; };
+    ataraxis-lua = { url = github:henriquehbr/ataraxis.lua; flake = false; };
     barbar-nvim = { url = github:romgrk/barbar.nvim; flake = false; };
     blamer-nvim = { url = github:APZelos/blamer.nvim; flake = false; };
     calvera-dark-nvim = { url = github:yashguptaz/calvera-dark.nvim; flake = false; };
@@ -26,6 +26,7 @@
     nvim-blame-line = { url = github:tveskag/nvim-blame-line; flake = false; };
     nvim-bufferline-lua = { url = github:akinsho/nvim-bufferline.lua; flake = false; };
     nvim-colorizer-lua = { url = github:norcalli/nvim-colorizer.lua; flake = false; };
+    nvim-cmp = { url = github:hrsh7th/nvim-cmp; flake = false; };
     nvim-compe = { url = github:hrsh7th/nvim-compe; flake = false; };
     nvim-dap = { url = github:mfussenegger/nvim-dap; flake = false; };
     nvim-dap-virtual-text = { url = github:theHamsta/nvim-dap-virtual-text; flake = false; };
@@ -57,7 +58,6 @@
     telescope-ghq-nvim = { url = github:nvim-telescope/telescope-ghq.nvim; flake = false; };
     telescope-github-nvim = { url = github:nvim-telescope/telescope-github.nvim; flake = false; };
     telescope-media-files-nvim = { url = github:nvim-telescope/telescope-media-files.nvim; flake = false; };
-    telescope-menu-nvim = { url = github:nvim-telescope/telescope-menu.nvim; flake = false; };
     telescope-node-modules-nvim = { url = github:nvim-telescope/telescope-node-modules.nvim; flake = false; };
     telescope-nvim = { url = github:nvim-telescope/telescope.nvim; flake = false; };
     telescope-packer-nvim = { url = github:nvim-telescope/telescope-packer.nvim; flake = false; };
