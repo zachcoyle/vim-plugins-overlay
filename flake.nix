@@ -9,6 +9,7 @@
     cmp-buffer = { url = github:hrsh7th/cmp-buffer; flake = false; };
     cmp-nvim-lsp = { url = github:hrsh7th/cmp-nvim-lsp; flake = false; };
     completion-nvim = { url = github:nvim-lua/completion-nvim; flake = false; };
+    copilot-vim = { url = github:github/copilot.vim; flake = false; };
     feline-nvim = { url = github:famiu/feline.nvim; flake = false; };
     focus-vim = { url = github:merlinrebrovic/focus.vim; flake = false; };
     formatter-nvim = { url = github:mhartington/formatter.nvim; flake = false; };
