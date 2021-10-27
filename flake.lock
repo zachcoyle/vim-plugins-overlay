@@ -3,11 +3,11 @@
     "LuaSnip": {
       "flake": false,
       "locked": {
-        "lastModified": 1635339078,
-        "narHash": "sha256-SXn7qOOoXcw3ucJTJbxfkKOI3qtjwM8ba89CAKekOEE=",
+        "lastModified": 1635340364,
+        "narHash": "sha256-QZdkrmoyEs77tM6boyNUs/HZeipinyPqP1+uUYmdN+w=",
         "owner": "L3MON4D3",
         "repo": "LuaSnip",
-        "rev": "b0f49c9a4e5157c647bb6a3d2fdd3ee901ff699f",
+        "rev": "383a9328ee77f691ff91316c6230fb4f5cc91b17",
         "type": "github"
       },
       "original": {
@@ -125,6 +125,22 @@
       "original": {
         "owner": "nvim-lua",
         "repo": "completion-nvim",
+        "type": "github"
+      }
+    },
+    "copilot-vim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1635325337,
+        "narHash": "sha256-NdJj3+HsKMR2Ngp+FwnrJoJzep85TEDeaQhgmsas96Y=",
+        "owner": "github",
+        "repo": "copilot.vim",
+        "rev": "03a11aded57a78975effc87770ade4059c058dc7",
+        "type": "github"
+      },
+      "original": {
+        "owner": "github",
+        "repo": "copilot.vim",
         "type": "github"
       }
     },
@@ -355,11 +371,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1635339315,
-        "narHash": "sha256-/txi4MbGr73cJKz5ILvFnJcmrXvjkBsOLJb9pyURukc=",
+        "lastModified": 1635362050,
+        "narHash": "sha256-Tv9buZojimLsFHSjAkEJzMS/DGo9B3heqNI2AhxgAwo=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "8723be9388ba384b58336f3e7b677db4a7a70381",
+        "rev": "09a5eba7410735a20732d9d8a0acf5b11e8d2db7",
         "type": "github"
       },
       "original": {
@@ -418,11 +434,11 @@
     "nvim-cmp": {
       "flake": false,
       "locked": {
-        "lastModified": 1635309289,
-        "narHash": "sha256-B5GjlXNYgW8mw9TsZ9zXK47xwjuVIpnohPkwbPJXzoM=",
+        "lastModified": 1635354209,
+        "narHash": "sha256-fO3JcEbKdVuPGvuFq7s57Uc+Sh9Nsb2RXoWHPAhuCSo=",
         "owner": "hrsh7th",
         "repo": "nvim-cmp",
-        "rev": "455817bb26fa4c052ace46684731d53d9765e26c",
+        "rev": "d113902eef9111488eeb6718f9dd8b532d5287d5",
         "type": "github"
       },
       "original": {
@@ -745,6 +761,7 @@
         "cmp-buffer": "cmp-buffer",
         "cmp-nvim-lsp": "cmp-nvim-lsp",
         "completion-nvim": "completion-nvim",
+        "copilot-vim": "copilot-vim",
         "feline-nvim": "feline-nvim",
         "focus-vim": "focus-vim",
         "formatter-nvim": "formatter-nvim",
