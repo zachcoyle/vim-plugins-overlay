@@ -26,6 +26,7 @@
     indent-blankline-nvim = { url = github:lukas-reineke/indent-blankline.nvim; flake = false; };
     lsp_signature-nvim = { url = github:ray-x/lsp_signature.nvim; flake = false; };
     lspkind-nvim = { url = github:onsails/lspkind-nvim; flake = false; };
+    lualine-nvim = { url = github:nvim-lualine/lualine.nvim; flake = false; };
     LuaSnip = { url = github:L3MON4D3/LuaSnip; flake = false; };
     neogit = { url = github:TimUntersberger/neogit; flake = false; };
     neon = { url = github:rafamadriz/neon; flake = false; };
