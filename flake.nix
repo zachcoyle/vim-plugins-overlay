@@ -2,12 +2,17 @@
   description = "curated evergreen vim-plugins overlay";
 
   inputs = {
+    devshell.url = github:numtide/devshell;
+    utils.url = github:numtide/flake-utils;
+
     ataraxis-lua = { url = github:henriquehbr/ataraxis.lua; flake = false; };
     barbar-nvim = { url = github:romgrk/barbar.nvim; flake = false; };
     blamer-nvim = { url = github:APZelos/blamer.nvim; flake = false; };
     calvera-dark-nvim = { url = github:yashguptaz/calvera-dark.nvim; flake = false; };
     cmp-buffer = { url = github:hrsh7th/cmp-buffer; flake = false; };
     cmp-nvim-lsp = { url = github:hrsh7th/cmp-nvim-lsp; flake = false; };
+    cmp-path = { url = github:hrsh7th/cmp-path; flake = false; };
+    cmp-treesitter = { url = github:ray-x/cmp-treesitter; flake = false; };
     completion-nvim = { url = github:nvim-lua/completion-nvim; flake = false; };
     copilot-vim = { url = github:github/copilot.vim; flake = false; };
     feline-nvim = { url = github:famiu/feline.nvim; flake = false; };
@@ -82,7 +87,7 @@
     which-key-nvim = { url = github:folke/which-key.nvim; flake = false; };
   };
 
-  outputs = { self, nixpkgs, ... }@inputs: {
+  outputs = { self, nixpkgs, devshell, utils, ... }@inputs: {
     overlay =
       final: prev:
       let
@@ -94,12 +99,33 @@
           src = builtins.getAttr name inputs;
         };
 
-        plugins = builtins.filter (name: name != "self" && name != "nixpkgs") (builtins.attrNames inputs);
+        plugins = builtins.filter
+          (name:
+            name != "self" &&
+              name != "nixpkgs" &&
+              name != "devshell" &&
+              name != "utils")
+          (builtins.attrNames inputs);
 
       in
       {
         vitalityVimPlugins = builtins.listToAttrs
           (map (name: { inherit name; value = buildVitalityPlugin name; }) plugins);
       };
-  };
+  }
+  // utils.lib.eachDefaultSystem (system:
+    let
+      pkgs = import nixpkgs {
+        inherit system;
+        overlays = [ devshell.overlay ];
+      };
+    in
+    {
+      devShell = pkgs.devshell.mkShell {
+        packages = with pkgs; [
+          rnix-lsp
+          nixpkgs-fmt
+        ];
+      };
+    });
 }

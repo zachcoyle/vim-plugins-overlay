@@ -112,6 +112,38 @@
         "type": "github"
       }
     },
+    "cmp-path": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1638011342,
+        "narHash": "sha256-5ClyCaPVoMglLdfaPWx2Qc5rt6mg4ftediNly6u9iLg=",
+        "owner": "hrsh7th",
+        "repo": "cmp-path",
+        "rev": "4fe14cf56288200614950fe57525ac6340f49d5a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "hrsh7th",
+        "repo": "cmp-path",
+        "type": "github"
+      }
+    },
+    "cmp-treesitter": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1635717470,
+        "narHash": "sha256-Va5qKR5Pis9F0pV8blNrZj5V1qO6z+CersVpSUWZ1KQ=",
+        "owner": "ray-x",
+        "repo": "cmp-treesitter",
+        "rev": "fb1964fa6347467e1685507c4c9f56b25c266fb5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ray-x",
+        "repo": "cmp-treesitter",
+        "type": "github"
+      }
+    },
     "completion-nvim": {
       "flake": false,
       "locked": {
@@ -141,6 +173,21 @@
       "original": {
         "owner": "github",
         "repo": "copilot.vim",
+        "type": "github"
+      }
+    },
+    "devshell": {
+      "locked": {
+        "lastModified": 1637575296,
+        "narHash": "sha256-ZY8YR5u8aglZPe27+AJMnPTG6645WuavB+w0xmhTarw=",
+        "owner": "numtide",
+        "repo": "devshell",
+        "rev": "0e56ef21ba1a717169953122c7415fa6a8cd2618",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "devshell",
         "type": "github"
       }
     },
@@ -760,8 +807,11 @@
         "calvera-dark-nvim": "calvera-dark-nvim",
         "cmp-buffer": "cmp-buffer",
         "cmp-nvim-lsp": "cmp-nvim-lsp",
+        "cmp-path": "cmp-path",
+        "cmp-treesitter": "cmp-treesitter",
         "completion-nvim": "completion-nvim",
         "copilot-vim": "copilot-vim",
+        "devshell": "devshell",
         "feline-nvim": "feline-nvim",
         "focus-vim": "focus-vim",
         "formatter-nvim": "formatter-nvim",
@@ -822,6 +872,7 @@
         "telescope-vimspector-nvim": "telescope-vimspector-nvim",
         "telescope-z-nvim": "telescope-z-nvim",
         "trouble-nvim": "trouble-nvim",
+        "utils": "utils",
         "vim-closer": "vim-closer",
         "vim-dadbod-ui": "vim-dadbod-ui",
         "vim-devicons": "vim-devicons",
@@ -1183,6 +1234,21 @@
       "original": {
         "owner": "folke",
         "repo": "trouble.nvim",
+        "type": "github"
+      }
+    },
+    "utils": {
+      "locked": {
+        "lastModified": 1637014545,
+        "narHash": "sha256-26IZAc5yzlD9FlDT54io1oqG/bBoyka+FJk5guaX4x4=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "bba5dcc8e0b20ab664967ad83d24d64cb64ec4f4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
         "type": "github"
       }
     },
