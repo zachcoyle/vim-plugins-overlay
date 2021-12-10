@@ -32,6 +32,7 @@
     neon = { url = github:rafamadriz/neon; flake = false; };
     neorg = { url = github:vhyrro/neorg; flake = false; };
     nvcode-color-schemes-vim = { url = github:ChristianChiarulli/nvcode-color-schemes.vim; flake = false; };
+    nvim-autopairs = { url = github:windwp/nvim-autopairs; flake = false; };
     nvim-blame-line = { url = github:tveskag/nvim-blame-line; flake = false; };
     nvim-bufferline-lua = { url = github:akinsho/nvim-bufferline.lua; flake = false; };
     nvim-cmp = { url = github:hrsh7th/nvim-cmp; flake = false; };

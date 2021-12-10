@@ -462,6 +462,22 @@
         "type": "github"
       }
     },
+    "nvim-autopairs": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1638972450,
+        "narHash": "sha256-K4fxgXRnjPAsKJM3QEek0Wvx2L/OvFs0beC66+xyWyA=",
+        "owner": "windwp",
+        "repo": "nvim-autopairs",
+        "rev": "8b932b61803f1e71ffa2d61ee7826268b1710131",
+        "type": "github"
+      },
+      "original": {
+        "owner": "windwp",
+        "repo": "nvim-autopairs",
+        "type": "github"
+      }
+    },
     "nvim-blame-line": {
       "flake": false,
       "locked": {
@@ -845,6 +861,7 @@
         "neorg": "neorg",
         "nixpkgs": "nixpkgs",
         "nvcode-color-schemes-vim": "nvcode-color-schemes-vim",
+        "nvim-autopairs": "nvim-autopairs",
         "nvim-blame-line": "nvim-blame-line",
         "nvim-bufferline-lua": "nvim-bufferline-lua",
         "nvim-cmp": "nvim-cmp",
