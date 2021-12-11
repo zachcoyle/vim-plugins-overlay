@@ -9,6 +9,7 @@
     barbar-nvim = { url = github:romgrk/barbar.nvim; flake = false; };
     blamer-nvim = { url = github:APZelos/blamer.nvim; flake = false; };
     calvera-dark-nvim = { url = github:yashguptaz/calvera-dark.nvim; flake = false; };
+    comment-nvim = { url = github:numToStr/Comment.nvim; flake = false; };
     cmp-buffer = { url = github:hrsh7th/cmp-buffer; flake = false; };
     cmp-nvim-lsp = { url = github:hrsh7th/cmp-nvim-lsp; flake = false; };
     cmp-path = { url = github:hrsh7th/cmp-path; flake = false; };
