@@ -320,6 +320,22 @@
         "type": "github"
       }
     },
+    "harpoon": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1638648274,
+        "narHash": "sha256-Wo70gXuPp0rH/A6plpkfsGZJ6QzQFTRIXjhrZ0xX5S0=",
+        "owner": "ThePrimeagen",
+        "repo": "harpoon",
+        "rev": "6948a402c2d7b1a66826d28d50ad86c0b2c8a6cf",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ThePrimeagen",
+        "repo": "harpoon",
+        "type": "github"
+      }
+    },
     "indent-blankline-nvim": {
       "flake": false,
       "locked": {
@@ -852,6 +868,7 @@
         "gitsigns-nvim": "gitsigns-nvim",
         "goyo-vim": "goyo-vim",
         "gruvbox": "gruvbox",
+        "harpoon": "harpoon",
         "indent-blankline-nvim": "indent-blankline-nvim",
         "lsp_signature-nvim": "lsp_signature-nvim",
         "lspkind-nvim": "lspkind-nvim",
