@@ -29,6 +29,7 @@
     feline-nvim = { url = github:famiu/feline.nvim; flake = false; };
     focus-vim = { url = github:merlinrebrovic/focus.vim; flake = false; };
     formatter-nvim = { url = github:mhartington/formatter.nvim; flake = false; };
+    friendly-snippets = { url = github:rafamadriz/friendly-snippets; flake = false; };
     fzf-lsp-nvim = { url = github:gfanto/fzf-lsp.nvim; flake = false; };
     galaxyline-nvim = { url = github:glepnir/galaxyline.nvim/main; flake = false; };
     gitsigns-nvim = { url = github:lewis6991/gitsigns.nvim; flake = false; };
