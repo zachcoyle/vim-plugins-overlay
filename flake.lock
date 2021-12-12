@@ -96,6 +96,22 @@
         "type": "github"
       }
     },
+    "cmp-copilot": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1636114685,
+        "narHash": "sha256-07cdIAJbGI8nbxvqO3I2ebP9mW1kzbraPW44WOpQRjk=",
+        "owner": "hrsh7th",
+        "repo": "cmp-copilot",
+        "rev": "104f6784351911d39e11f4edeaf43dc9ecc23cc2",
+        "type": "github"
+      },
+      "original": {
+        "owner": "hrsh7th",
+        "repo": "cmp-copilot",
+        "type": "github"
+      }
+    },
     "cmp-nvim-lsp": {
       "flake": false,
       "locked": {
@@ -466,16 +482,18 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1639270931,
-        "narHash": "sha256-/xem5oz+LiKCOX3K4Qdf4Ig67CvJb9GqjChZmKNdZR0=",
+        "lastModified": 1639239143,
+        "narHash": "sha256-9fFMUs6m3/4ZMflSqRgO4iEkBtFBnDyLWa3AB2tOvfs=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "640dafb1f90659cd03dc46d5298f5bb2969cfbe1",
+        "rev": "e6df26a654b7fdd59a068c57001eab5736b1363c",
         "type": "github"
       },
       "original": {
-        "id": "nixpkgs",
-        "type": "indirect"
+        "owner": "nixos",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
       }
     },
     "nvcode-color-schemes-vim": {
@@ -870,6 +888,7 @@
         "blamer-nvim": "blamer-nvim",
         "calvera-dark-nvim": "calvera-dark-nvim",
         "cmp-buffer": "cmp-buffer",
+        "cmp-copilot": "cmp-copilot",
         "cmp-nvim-lsp": "cmp-nvim-lsp",
         "cmp-path": "cmp-path",
         "cmp-treesitter": "cmp-treesitter",

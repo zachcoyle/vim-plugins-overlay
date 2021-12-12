@@ -2,18 +2,28 @@
   description = "curated evergreen vim-plugins overlay";
 
   inputs = {
-    devshell.url = github:numtide/devshell;
-    utils.url = github:numtide/flake-utils;
+    nixpkgs = {
+      url = github:nixos/nixpkgs/nixpkgs-unstable;
+    };
+    devshell = {
+      url = github:numtide/devshell;
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+    utils = {
+      url = github:numtide/flake-utils;
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
 
     ataraxis-lua = { url = github:henriquehbr/ataraxis.lua; flake = false; };
     barbar-nvim = { url = github:romgrk/barbar.nvim; flake = false; };
     blamer-nvim = { url = github:APZelos/blamer.nvim; flake = false; };
     calvera-dark-nvim = { url = github:yashguptaz/calvera-dark.nvim; flake = false; };
-    comment-nvim = { url = github:numToStr/Comment.nvim; flake = false; };
     cmp-buffer = { url = github:hrsh7th/cmp-buffer; flake = false; };
+    cmp-copilot = { url = github:hrsh7th/cmp-copilot; flake = false; };
     cmp-nvim-lsp = { url = github:hrsh7th/cmp-nvim-lsp; flake = false; };
     cmp-path = { url = github:hrsh7th/cmp-path; flake = false; };
     cmp-treesitter = { url = github:ray-x/cmp-treesitter; flake = false; };
+    comment-nvim = { url = github:numToStr/Comment.nvim; flake = false; };
     completion-nvim = { url = github:nvim-lua/completion-nvim; flake = false; };
     copilot-vim = { url = github:github/copilot.vim; flake = false; };
     feline-nvim = { url = github:famiu/feline.nvim; flake = false; };
