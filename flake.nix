@@ -89,6 +89,7 @@
     telescope-symbols-nvim = { url = github:nvim-telescope/telescope-symbols.nvim; flake = false; };
     telescope-vimspector-nvim = { url = github:nvim-telescope/telescope-vimspector.nvim; flake = false; };
     telescope-z-nvim = { url = github:nvim-telescope/telescope-z.nvim; flake = false; };
+    toggleterm-nvim = { url = github:akinsho/toggleterm.nvim; flake = false; };
     trouble-nvim = { url = github:folke/trouble.nvim; flake = false; };
     vim-closer = { url = github:9mm/vim-closer; flake = false; };
     vim-dadbod-ui = { url = github:kristijanhusak/vim-dadbod-ui; flake = false; };

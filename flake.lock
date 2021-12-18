@@ -975,6 +975,7 @@
         "telescope-symbols-nvim": "telescope-symbols-nvim",
         "telescope-vimspector-nvim": "telescope-vimspector-nvim",
         "telescope-z-nvim": "telescope-z-nvim",
+        "toggleterm-nvim": "toggleterm-nvim",
         "trouble-nvim": "trouble-nvim",
         "utils": "utils",
         "vim-closer": "vim-closer",
@@ -1322,6 +1323,22 @@
       "original": {
         "owner": "nvim-telescope",
         "repo": "telescope-z.nvim",
+        "type": "github"
+      }
+    },
+    "toggleterm-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1637755315,
+        "narHash": "sha256-+Psec2G0roouwBGXItwaj8LHCm9jLtSnAs2zxUmzFnc=",
+        "owner": "akinsho",
+        "repo": "toggleterm.nvim",
+        "rev": "265bbff68fbb8b2a5fb011272ec469850254ec9f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "akinsho",
+        "repo": "toggleterm.nvim",
         "type": "github"
       }
     },
