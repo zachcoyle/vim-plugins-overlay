@@ -421,6 +421,22 @@
         "type": "github"
       }
     },
+    "leap-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1652126045,
+        "narHash": "sha256-7ohq3zzAvFCB8AiDq5PRQ4JWkjgopDBg9/HBu0xmEw0=",
+        "owner": "ggandor",
+        "repo": "leap.nvim",
+        "rev": "9403fcdd5e313f82fe05b63966d450ba38f967a1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ggandor",
+        "repo": "leap.nvim",
+        "type": "github"
+      }
+    },
     "lsp_signature-nvim": {
       "flake": false,
       "locked": {
@@ -944,6 +960,7 @@
         "gruvbox": "gruvbox",
         "harpoon": "harpoon",
         "indent-blankline-nvim": "indent-blankline-nvim",
+        "leap-nvim": "leap-nvim",
         "lsp_signature-nvim": "lsp_signature-nvim",
         "lspkind-nvim": "lspkind-nvim",
         "lualine-nvim": "lualine-nvim",

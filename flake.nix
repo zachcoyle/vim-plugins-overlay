@@ -37,6 +37,7 @@
     gruvbox = { url = github:gruvbox-community/gruvbox; flake = false; };
     harpoon = { url = github:ThePrimeagen/harpoon; flake = false; };
     indent-blankline-nvim = { url = github:lukas-reineke/indent-blankline.nvim; flake = false; };
+    leap-nvim = { url = github:ggandor/leap.nvim; flake = false; };
     lsp_signature-nvim = { url = github:ray-x/lsp_signature.nvim; flake = false; };
     lspkind-nvim = { url = github:onsails/lspkind-nvim; flake = false; };
     lualine-nvim = { url = github:nvim-lualine/lualine.nvim; flake = false; };
