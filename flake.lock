@@ -1016,7 +1016,6 @@
         "toggleterm-nvim": "toggleterm-nvim",
         "trouble-nvim": "trouble-nvim",
         "utils": "utils",
-        "vim-closer": "vim-closer",
         "vim-dadbod-ui": "vim-dadbod-ui",
         "vim-devicons": "vim-devicons",
         "vim-import-cost": "vim-import-cost",
@@ -1408,22 +1407,6 @@
       "original": {
         "owner": "numtide",
         "repo": "flake-utils",
-        "type": "github"
-      }
-    },
-    "vim-closer": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1578015863,
-        "narHash": "sha256-ciTud2dZaoT8D+KTQ6ycVTQNVhSQnkhFii2V4DSXGFQ=",
-        "owner": "9mm",
-        "repo": "vim-closer",
-        "rev": "0cb91a7a61c16247dee1eaa4b0a7c72b985311f1",
-        "type": "github"
-      },
-      "original": {
-        "owner": "9mm",
-        "repo": "vim-closer",
         "type": "github"
       }
     },

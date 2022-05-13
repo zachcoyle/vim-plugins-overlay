@@ -92,7 +92,7 @@
     telescope-z-nvim = { url = github:nvim-telescope/telescope-z.nvim; flake = false; };
     toggleterm-nvim = { url = github:akinsho/toggleterm.nvim; flake = false; };
     trouble-nvim = { url = github:folke/trouble.nvim; flake = false; };
-    vim-closer = { url = github:9mm/vim-closer; flake = false; };
+    # vim-closer = { url = github:9mm/vim-closer; flake = false; };
     vim-dadbod-ui = { url = github:kristijanhusak/vim-dadbod-ui; flake = false; };
     vim-devicons = { url = github:ryanoasis/vim-devicons; flake = false; };
     vim-import-cost = { url = github:yardnsm/vim-import-cost; flake = false; };
